@@ -1,30 +1,45 @@
 import { Container } from "@/components/Container";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
+import fs from 'fs/promises';
+import path from 'path';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 
-  (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000');
+const DATA_DIR = path.join(process.cwd(), 'src', 'data');
+
+async function readJsonFile(filename: string) {
+  try {
+    const filepath = path.join(DATA_DIR, filename);
+    const content = await fs.readFile(filepath, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    console.error(`Error reading ${filename}:`, error);
+    return null;
+  }
+}
 
 async function fetchItems(page: number, limit: number, searchQuery: string = "") {
   try {
-    let url = `${API_BASE_URL}/api/jobs`;
+    const data = await readJsonFile('all-jobs.json');
+    if (!data) {
+      return {
+        items: [],
+        totalItems: 0,
+      };
+    }
     
+    let items = data.jobs || [];
+    
+    // Фильтрация по поисковому запросу
     if (searchQuery) {
-      url = `${API_BASE_URL}/api/jobs/search/${encodeURIComponent(searchQuery)}`;
+      const query = searchQuery.toLowerCase();
+      items = items.filter((job: any) => 
+        job.title?.toLowerCase().includes(query) ||
+        job.company?.toLowerCase().includes(query) ||
+        job.location?.toLowerCase().includes(query)
+      );
     }
     
-    const response = await fetch(url, {
-      next: { revalidate: 3600 } // Кэшируем на 1 час
-    });
-    
-    if (!response.ok) {
-      throw new Error('Failed to fetch jobs');
-    }
-    
-    const data = await response.json();
-    const items = data.jobs || [];
-    
-    // Пагинация на клиенте
+    // Пагинация
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
     const paginatedItems = items.slice(startIndex, endIndex);
