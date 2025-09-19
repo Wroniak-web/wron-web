@@ -27,15 +27,15 @@ main {
   margin: 0 auto;
 }
 
-/* Боковая реклама для десктопа */
+/* Контент с отступами для Auto Ads на десктопе */
 @media (min-width: 1024px) {
   .ad-container {
     margin: 0;
   }
   
   .adsbygoogle {
-    min-height: 600px;
-    min-width: 160px;
+    min-height: 90px;
+    width: 100%;
   }
 }
 

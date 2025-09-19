@@ -87,21 +87,10 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
         />
       </div>
 
-      {/* Основной контент с боковой рекламой */}
-      <div className="flex gap-6 min-h-[600px]">
-        {/* Левая боковая реклама - только на десктопе */}
-        <div className="hidden lg:block w-48 flex-shrink-0">
-          <div className="sticky top-4">
-            <AdBanner 
-              adSlot="1234567893" 
-              adFormat="vertical"
-              className="text-center"
-            />
-          </div>
-        </div>
-
-        {/* Основной список вакансий */}
-        <div className="flex-1 max-w-4xl mx-auto">
+      {/* Основной контент с местом для Auto Ads */}
+      <div className="min-h-[600px]">
+        {/* Контейнер с отступами для боковой рекламы на десктопе */}
+        <div className="lg:mx-16 xl:mx-32">
           {items.length > 0 ? (
             <ul className="space-y-4">
               {items.map((item: any, index: number) => (
@@ -154,17 +143,6 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
           )}
           
           <PaginationControls currentPage={page} totalPages={totalPages} />
-        </div>
-
-        {/* Правая боковая реклама - только на десктопе */}
-        <div className="hidden lg:block w-48 flex-shrink-0">
-          <div className="sticky top-4">
-            <AdBanner 
-              adSlot="1234567894" 
-              adFormat="vertical"
-              className="text-center"
-            />
-          </div>
         </div>
       </div>
       
