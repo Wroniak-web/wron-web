@@ -124,7 +124,7 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
     const paginatedItems = items.slice(startIndex, endIndex);
     
     console.log(`Page ${page}: showing items ${startIndex}-${endIndex} of ${items.length} total items`);
-    console.log(`First 3 items on page ${page}:`, paginatedItems.slice(0, 3).map(item => ({ title: item.title, company: item.company })));
+    console.log(`First 3 items on page ${page}:`, paginatedItems.slice(0, 3).map((item: any) => ({ title: item.title, company: item.company })));
     
     return {
       items: paginatedItems,
