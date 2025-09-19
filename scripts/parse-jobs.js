@@ -12,7 +12,7 @@ const parseNoFluffJobs = require('../parsers/nofluffjobs');
 const parseLinkedIn = require('../parsers/linkedin');
 const parseOlx = require('../parsers/olx');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
 // Создаем директорию для данных
 async function ensureDataDir() {
