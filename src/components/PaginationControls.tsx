@@ -70,45 +70,56 @@ export default function PaginationControls({
   const pageNumbers = getPageNumbers();
 
   return (
-    <div className="flex items-center justify-center mt-4 space-x-2">
+    <div className="flex items-center justify-center mt-4 space-x-1 md:space-x-2">
       {/* Кнопка "Previous" */}
       <button
         onClick={handlePrevPage}
         disabled={currentPage === 1}
-        className="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+        className="px-2 md:px-4 py-2 text-xs md:text-sm rounded bg-indigo-600 text-white hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
       >
-        Previous
+        <span className="hidden sm:inline">Previous</span>
+        <span className="sm:hidden">‹</span>
       </button>
 
-      {/* Номера страниц */}
-      {pageNumbers.map((page, index) =>
-        page === -1 ? (
-          // "..." для пропуска страниц
-          <span key={index} className="px-3 py-1 text-gray-500">
-            ...
-          </span>
-        ) : (
-          <button
-            key={page}
-            onClick={() => handlePageChange(page)}
-            className={`px-3 py-1 rounded ${
-              page === currentPage
-                ? "bg-indigo-700 text-white"
-                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-            } transition-colors`}
-          >
-            {page}
-          </button>
-        )
-      )}
+      {/* Номера страниц - скрываем на очень маленьких экранах */}
+      <div className="hidden xs:flex items-center space-x-1">
+        {pageNumbers.map((page, index) =>
+          page === -1 ? (
+            // "..." для пропуска страниц
+            <span key={index} className="px-2 py-1 text-gray-500 text-sm">
+              ...
+            </span>
+          ) : (
+            <button
+              key={page}
+              onClick={() => handlePageChange(page)}
+              className={`px-2 md:px-3 py-1 text-xs md:text-sm rounded ${
+                page === currentPage
+                  ? "bg-indigo-700 text-white"
+                  : "bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
+              } transition-colors`}
+            >
+              {page}
+            </button>
+          )
+        )}
+      </div>
+
+      {/* Показываем только текущую страницу на очень маленьких экранах */}
+      <div className="xs:hidden flex items-center space-x-1">
+        <span className="px-2 py-1 text-xs text-gray-500">
+          {currentPage} / {totalPages}
+        </span>
+      </div>
 
       {/* Кнопка "Next" */}
       <button
         onClick={handleNextPage}
         disabled={currentPage === totalPages}
-        className="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+        className="px-2 md:px-4 py-2 text-xs md:text-sm rounded bg-indigo-600 text-white hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
       >
-        Next
+        <span className="hidden sm:inline">Next</span>
+        <span className="sm:hidden">›</span>
       </button>
     </div>
   );

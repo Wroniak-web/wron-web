@@ -16,52 +16,7 @@ main {
   flex: 1;
 }
 
-/* Стили для рекламы */
-.ad-container {
-  margin: 1rem 0;
-  text-align: center;
-}
-
-.adsbygoogle {
-  display: block;
-  margin: 0 auto;
-}
-
-/* Контент с отступами для Auto Ads на десктопе */
-@media (min-width: 1024px) {
-  .ad-container {
-    margin: 0;
-  }
-  
-  .adsbygoogle {
-    min-height: 90px;
-    width: 100%;
-  }
-}
-
-/* Мобильная реклама */
-@media (max-width: 768px) {
-  .ad-container {
-    margin: 0.5rem 0;
-  }
-  
-  .adsbygoogle {
-    min-height: 90px;
-    width: 100%;
-  }
-}
-
-/* Планшетная реклама */
-@media (min-width: 769px) and (max-width: 1023px) {
-  .ad-container {
-    margin: 1rem 0;
-  }
-  
-  .adsbygoogle {
-    min-height: 250px;
-    width: 100%;
-  }
-}
+/* Google Auto Ads будет размещать рекламу автоматически */
 
 
 
@@ -73,14 +28,10 @@ main {
   overflow: hidden;
 }
 
-/* Logo emoji styling */
+/* Logo emoji styling - simple approach */
 .logo-emoji {
-  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.3));
-  transition: filter 0.3s ease;
-}
-
-.dark .logo-emoji {
-  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4)) drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+  font-size: 1.5rem;
+  line-height: 1;
 }
 
 @layer base {

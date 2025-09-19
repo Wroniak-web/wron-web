@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Favicon Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .favicon-container {
+            width: 32px;
+            height: 32px;
+            background: #1f2937;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .instructions {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favicon Generator for Wroniak</h1>
+    
+    <div class="favicon-container">🐦‍⬛</div>
+    
+    <div class="instructions">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Right-click on the emoji above</li>
+            <li>Select "Save image as..." or "Copy image"</li>
+            <li>Save as favicon.ico in the public folder</li>
+            <li>Or use a screenshot tool to capture the 32x32 emoji</li>
+        </ol>
+        
+        <p><strong>Alternative:</strong> The SVG favicon is already created and should work in modern browsers.</p>
+    </div>
+    
+    <script>
+        // Create a canvas to generate favicon
+        const canvas = document.createElement('canvas');
+        canvas.width = 32;
+        canvas.height = 32;
+        const ctx = canvas.getContext('2d');
+        
+        // Draw background
+        ctx.fillStyle = '#1f2937';
+        ctx.fillRect(0, 0, 32, 32);
+        
+        // Draw emoji
+        ctx.font = '20px Arial';
+        ctx.fillStyle = 'white';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('🐦‍⬛', 16, 16);
+        
+        // Convert to data URL
+        const dataURL = canvas.toDataURL('image/png');
+        
+        // Create download link
+        const link = document.createElement('a');
+        link.download = 'favicon-32x32.png';
+        link.href = dataURL;
+        link.textContent = 'Download 32x32 PNG favicon';
+        link.style.display = 'block';
+        link.style.margin = '10px 0';
+        link.style.padding = '10px';
+        link.style.backgroundColor = '#3b82f6';
+        link.style.color = 'white';
+        link.style.textDecoration = 'none';
+        link.style.borderRadius = '4px';
+        
+        document.body.appendChild(link);
+    </script>
+</body>
+</html>

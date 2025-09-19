@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         trueGray: colors.neutral,
       },
+      screens: {
+        'xs': '475px',
+      },
     },
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],

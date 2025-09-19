@@ -15,6 +15,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Wroniak",
   description: "Find jobs in Wroclaw",
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg'
+  },
   other: {
     "google-adsense-account": "ca-pub-3205919903681434",
   },
@@ -28,6 +32,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3205919903681434"

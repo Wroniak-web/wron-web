@@ -1,7 +1,6 @@
 import { Container } from "@/components/Container";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
-import AdBanner from "@/components/AdBanner";
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -77,15 +76,6 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
         </p>
       </div>
       <SearchBar initialQuery={searchQuery} />
-      
-      {/* Мобильная реклама вверху - только на мобильных */}
-      <div className="mb-6 md:hidden">
-        <AdBanner 
-          adSlot="1234567890" 
-          adFormat="horizontal"
-          className="text-center"
-        />
-      </div>
 
       {/* Основной контент с местом для Auto Ads */}
       <div className="min-h-[600px] px-4">
@@ -114,16 +104,6 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
                     </a>
                   </li>
                   
-                  {/* Реклама каждые 8 вакансий на мобильных */}
-                  {(index + 1) % 8 === 0 && (
-                    <div className="my-4 md:my-6 md:hidden">
-                      <AdBanner 
-                        adSlot="1234567891" 
-                        adFormat="rectangle"
-                        className="text-center"
-                      />
-                    </div>
-                  )}
                 </div>
               ))}
             </ul>
@@ -146,15 +126,6 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
             <PaginationControls currentPage={page} totalPages={totalPages} />
           </div>
         </div>
-      </div>
-      
-      {/* Мобильная реклама внизу - только на мобильных */}
-      <div className="mt-6 md:hidden">
-        <AdBanner 
-          adSlot="1234567892" 
-          adFormat="horizontal"
-          className="text-center"
-        />
       </div>
     </Container>
   );
