@@ -14,12 +14,18 @@ const parseOlx = require('../parsers/olx');
 
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
+console.log('📁 DATA_DIR path:', DATA_DIR);
+console.log('📁 __dirname:', __dirname);
+console.log('📁 process.cwd():', process.cwd());
+
 // Создаем директорию для данных
 async function ensureDataDir() {
     try {
+        console.log('📁 Creating directory:', DATA_DIR);
         await fs.mkdir(DATA_DIR, { recursive: true });
+        console.log('✅ Directory created successfully');
     } catch (error) {
-        console.error('Error creating data directory:', error);
+        console.error('❌ Error creating data directory:', error);
     }
 }
 
