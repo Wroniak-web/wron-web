@@ -18,7 +18,7 @@ async function readJsonFile(filename: string) {
   }
 }
 
-async function fetchItems(page: number, limit: number, searchQuery: string = "", filters: FilterState = { source: [], workType: [], location: [], dateRange: 'all' }) {
+async function fetchItems(page: number, limit: number, searchQuery: string = "", filters: FilterState = { workType: [], location: [], dateRange: 'all' }) {
   try {
     const data = await readJsonFile('all-jobs.json');
     if (!data) {
@@ -41,12 +41,6 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
     }
 
     // Применяем фильтры
-    if (filters.source.length > 0) {
-      items = items.filter((job: any) => 
-        filters.source.includes(job.source?.toLowerCase())
-      );
-    }
-
     if (filters.workType.length > 0) {
       items = items.filter((job: any) => {
         const title = job.title?.toLowerCase() || '';
@@ -56,13 +50,13 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
         return filters.workType.some(type => {
           switch (type) {
             case 'internship':
-              return text.includes('staż') || text.includes('intern') || text.includes('praktyk');
+              return text.includes('staż') || text.includes('intern') || text.includes('praktyk') || text.includes('stażysta');
             case 'full-time':
-              return text.includes('pełny etat') || text.includes('full-time') || text.includes('pełny wymiar');
+              return text.includes('pełny etat') || text.includes('full-time') || text.includes('pełny wymiar') || text.includes('pełnoetatowy');
             case 'part-time':
-              return text.includes('część etatu') || text.includes('part-time') || text.includes('dorywcz');
+              return text.includes('część etatu') || text.includes('part-time') || text.includes('dorywcz') || text.includes('częściowy');
             case 'contract':
-              return text.includes('kontrakt') || text.includes('contract') || text.includes('umowa');
+              return text.includes('kontrakt') || text.includes('contract') || text.includes('umowa') || text.includes('umowa zlecenie');
             default:
               return false;
           }
@@ -74,16 +68,17 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
       items = items.filter((job: any) => {
         const title = job.title?.toLowerCase() || '';
         const description = job.description?.toLowerCase() || '';
-        const text = `${title} ${description}`;
+        const location = job.location?.toLowerCase() || '';
+        const text = `${title} ${description} ${location}`;
         
-        return filters.location.some(location => {
-          switch (location) {
+        return filters.location.some(loc => {
+          switch (loc) {
             case 'wroclaw':
-              return text.includes('wrocław') || text.includes('wroclaw');
+              return text.includes('wrocław') || text.includes('wroclaw') || text.includes('wrocławski');
             case 'remote':
-              return text.includes('zdalnie') || text.includes('remote') || text.includes('home office');
+              return text.includes('zdalnie') || text.includes('remote') || text.includes('home office') || text.includes('praca zdalna');
             case 'hybrid':
-              return text.includes('hybrydowo') || text.includes('hybrid') || text.includes('częściowo zdalnie');
+              return text.includes('hybrydowo') || text.includes('hybrid') || text.includes('częściowo zdalnie') || text.includes('mieszany');
             default:
               return false;
           }
@@ -132,14 +127,13 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
   }
 }
 
-export default async function Home({ searchParams }: { searchParams: { page?: string; search?: string; source?: string | string[]; workType?: string | string[]; location?: string | string[]; dateRange?: string } }) {
+export default async function Home({ searchParams }: { searchParams: { page?: string; search?: string; workType?: string | string[]; location?: string | string[]; dateRange?: string } }) {
   const page = parseInt(searchParams.page || "1", 10); // Получить текущую страницу из URL
   const limit = 10; // Количество элементов на странице
   const searchQuery = searchParams.search || ""; // Получить текст поиска из URL
   
   // Парсим фильтры из URL параметров
   const filters: FilterState = {
-    source: searchParams.source ? (Array.isArray(searchParams.source) ? searchParams.source : [searchParams.source]) : [],
     workType: searchParams.workType ? (Array.isArray(searchParams.workType) ? searchParams.workType : [searchParams.workType]) : [],
     location: searchParams.location ? (Array.isArray(searchParams.location) ? searchParams.location : [searchParams.location]) : [],
     dateRange: searchParams.dateRange || 'all',

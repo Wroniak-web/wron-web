@@ -9,37 +9,29 @@ interface JobFiltersProps {
 }
 
 export interface FilterState {
-  source: string[];
   workType: string[];
   location: string[];
   dateRange: string;
 }
 
-const SOURCES = [
-  { id: 'amazon', label: 'Amazon', count: 0 },
-  { id: 'nofluffjobs', label: 'NoFluffJobs', count: 0 },
-  { id: 'olx', label: 'OLX', count: 0 },
-  { id: 'pracuj', label: 'Pracuj', count: 0 },
-];
-
 const WORK_TYPES = [
-  { id: 'internship', label: 'Стажировка' },
-  { id: 'full-time', label: 'Полная занятость' },
-  { id: 'part-time', label: 'Подработка' },
-  { id: 'contract', label: 'Контракт' },
+  { id: 'internship', label: 'Staż' },
+  { id: 'full-time', label: 'Pełny etat' },
+  { id: 'part-time', label: 'Część etatu' },
+  { id: 'contract', label: 'Kontrakt' },
 ];
 
 const LOCATIONS = [
-  { id: 'wroclaw', label: 'Вроцлав' },
-  { id: 'remote', label: 'Удаленно' },
-  { id: 'hybrid', label: 'Гибрид' },
+  { id: 'wroclaw', label: 'Wrocław' },
+  { id: 'remote', label: 'Zdalnie' },
+  { id: 'hybrid', label: 'Hybrydowo' },
 ];
 
 const DATE_RANGES = [
-  { id: 'today', label: 'Сегодня' },
-  { id: 'week', label: 'Неделя' },
-  { id: 'month', label: 'Месяц' },
-  { id: 'all', label: 'Все время' },
+  { id: 'today', label: 'Dzisiaj' },
+  { id: 'week', label: 'Tydzień' },
+  { id: 'month', label: 'Miesiąc' },
+  { id: 'all', label: 'Wszystkie' },
 ];
 
 export default function JobFilters({ onFiltersChange, initialFilters }: JobFiltersProps) {
@@ -47,7 +39,6 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
   const searchParams = useSearchParams();
   
   const [filters, setFilters] = useState<FilterState>(initialFilters || {
-    source: [],
     workType: [],
     location: [],
     dateRange: 'all',
@@ -58,7 +49,6 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
   // Обновляем фильтры при изменении URL
   useEffect(() => {
     const newFilters: FilterState = {
-      source: searchParams.getAll('source'),
       workType: searchParams.getAll('workType'),
       location: searchParams.getAll('location'),
       dateRange: searchParams.get('dateRange') || 'all',
@@ -77,19 +67,12 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
     const params = new URLSearchParams(searchParams);
     
     // Очищаем старые параметры фильтров
-    params.delete('source');
     params.delete('workType');
     params.delete('location');
     params.delete('dateRange');
     params.delete('page'); // Сбрасываем страницу при изменении фильтров
     
     // Добавляем новые параметры
-    if (newFilters.source.length > 0) {
-      newFilters.source.forEach(source => {
-        params.append('source', source);
-      });
-    }
-    
     if (newFilters.workType.length > 0) {
       newFilters.workType.forEach(workType => {
         params.append('workType', workType);
@@ -116,12 +99,6 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
     }
   };
 
-  const handleSourceToggle = (sourceId: string) => {
-    const newSources = filters.source.includes(sourceId)
-      ? filters.source.filter(s => s !== sourceId)
-      : [...filters.source, sourceId];
-    handleFilterChange('source', newSources);
-  };
 
   const handleWorkTypeToggle = (workTypeId: string) => {
     const newWorkTypes = filters.workType.includes(workTypeId)
@@ -139,7 +116,6 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
 
   const clearAllFilters = () => {
     const clearedFilters = {
-      source: [],
       workType: [],
       location: [],
       dateRange: 'all',
@@ -148,7 +124,6 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
     
     // Очищаем URL от всех параметров фильтров
     const params = new URLSearchParams(searchParams);
-    params.delete('source');
     params.delete('workType');
     params.delete('location');
     params.delete('dateRange');
@@ -160,13 +135,13 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
     router.push(newUrl);
   };
 
-  const hasActiveFilters = filters.source.length > 0 || filters.workType.length > 0 || filters.location.length > 0 || filters.dateRange !== 'all';
+  const hasActiveFilters = filters.workType.length > 0 || filters.location.length > 0 || filters.dateRange !== 'all';
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-4 mb-6">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-          Фильтры
+          Filtry
         </h3>
         <div className="flex items-center space-x-2">
           {hasActiveFilters && (
@@ -174,46 +149,24 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
               onClick={clearAllFilters}
               className="text-sm text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300"
             >
-              Очистить все
+              Wyczyść wszystkie
             </button>
           )}
           <button
             onClick={() => setIsExpanded(!isExpanded)}
             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"
           >
-            {isExpanded ? 'Свернуть' : 'Развернуть'}
+            {isExpanded ? 'Zwiń' : 'Rozwiń'}
           </button>
         </div>
       </div>
 
       {isExpanded && (
         <div className="space-y-6">
-          {/* Источники */}
+          {/* Тип pracy */}
           <div>
             <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">
-              Источники
-            </h4>
-            <div className="flex flex-wrap gap-2">
-              {SOURCES.map((source) => (
-                <button
-                  key={source.id}
-                  onClick={() => handleSourceToggle(source.id)}
-                  className={`px-3 py-1 rounded-full text-sm transition-colors ${
-                    filters.source.includes(source.id)
-                      ? 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200'
-                      : 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  {source.label}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Тип работы */}
-          <div>
-            <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">
-              Тип работы
+              Typ pracy
             </h4>
             <div className="flex flex-wrap gap-2">
               {WORK_TYPES.map((workType) => (
@@ -232,10 +185,10 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
             </div>
           </div>
 
-          {/* Локация */}
+          {/* Lokalizacja */}
           <div>
             <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">
-              Локация
+              Lokalizacja
             </h4>
             <div className="flex flex-wrap gap-2">
               {LOCATIONS.map((location) => (
@@ -254,10 +207,10 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
             </div>
           </div>
 
-          {/* Дата публикации */}
+          {/* Data publikacji */}
           <div>
             <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">
-              Дата публикации
+              Data publikacji
             </h4>
             <div className="flex flex-wrap gap-2">
               {DATE_RANGES.map((dateRange) => (
@@ -278,27 +231,10 @@ export default function JobFilters({ onFiltersChange, initialFilters }: JobFilte
         </div>
       )}
 
-      {/* Активные фильтры */}
+      {/* Aktywne filtry */}
       {hasActiveFilters && (
         <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-wrap gap-2">
-            {filters.source.map((sourceId) => {
-              const source = SOURCES.find(s => s.id === sourceId);
-              return (
-                <span
-                  key={sourceId}
-                  className="inline-flex items-center px-2 py-1 rounded-full text-xs bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200"
-                >
-                  {source?.label}
-                  <button
-                    onClick={() => handleSourceToggle(sourceId)}
-                    className="ml-1 text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300"
-                  >
-                    ×
-                  </button>
-                </span>
-              );
-            })}
             {filters.workType.map((workTypeId) => {
               const workType = WORK_TYPES.find(w => w.id === workTypeId);
               return (
