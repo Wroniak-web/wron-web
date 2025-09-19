@@ -1,0 +1,19 @@
+name: Test Workflow
+
+on:
+  workflow_dispatch: # Позволяет запускать вручную
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Test
+        run: |
+          echo "GitHub Actions работают!"
+          echo "Current time: $(date)"
