@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
+import AdBanner from "@/components/AdBanner";
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -76,31 +77,60 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
         </p>
       </div>
       <SearchBar initialQuery={searchQuery} />
+      
+      {/* Реклама вверху */}
+      <div className="mb-6">
+        <AdBanner 
+          adSlot="1234567890" 
+          adFormat="horizontal"
+          className="text-center"
+        />
+      </div>
+
       <ul className="space-y-4">
-        {items.map((item: any) => (
-          <li
-            key={item._id}
-            className="block p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800"
-          >
-            <a
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <h2 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400">
-                {item.title}
-              </h2>
-              <p className="text-gray-700 dark:text-gray-300">
-                Firma: {item.company}
-              </p>
-              <p className="text-gray-500 text-sm dark:text-gray-400">
-                Source: {item.source}
-              </p>
-            </a>
-          </li>
+        {items.map((item: any, index: number) => (
+          <div key={item._id}>
+            <li className="block p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <h2 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400">
+                  {item.title}
+                </h2>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Firma: {item.company}
+                </p>
+                <p className="text-gray-500 text-sm dark:text-gray-400">
+                  Source: {item.source}
+                </p>
+              </a>
+            </li>
+            
+            {/* Реклама каждые 5 вакансий */}
+            {(index + 1) % 5 === 0 && (
+              <div className="my-6">
+                <AdBanner 
+                  adSlot="1234567891" 
+                  adFormat="rectangle"
+                  className="text-center"
+                />
+              </div>
+            )}
+          </div>
         ))}
       </ul>
+      
+      {/* Реклама внизу */}
+      <div className="mt-6">
+        <AdBanner 
+          adSlot="1234567892" 
+          adFormat="horizontal"
+          className="text-center"
+        />
+      </div>
       <PaginationControls currentPage={page} totalPages={totalPages} />
     </Container>
   );

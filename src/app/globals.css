@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Стили для рекламы */
+.ad-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.adsbygoogle {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Адаптивность для рекламы */
+@media (max-width: 768px) {
+  .ad-container {
+    margin: 0.5rem 0;
+  }
+}
+
 
 
 @layer base {
