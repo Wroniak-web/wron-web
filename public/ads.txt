@@ -1,0 +1,5 @@
+# ads.txt file for wroniak.vercel.app
+# This file helps prevent ad fraud and ensures you get paid for legitimate ad impressions
+
+# Google AdSense
+google.com, pub-3205919903681434, DIRECT, f08c47fec0942fa0

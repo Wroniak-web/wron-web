@@ -12,6 +12,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Wroniak",
   description: "Find jobs in Wroclaw",
+  other: {
+    "google-adsense-account": "ca-pub-3205919903681434",
+  },
 };
 
 export default function RootLayout({
