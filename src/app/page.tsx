@@ -68,11 +68,11 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
 
   return (
     <Container>
-      <div className="my-6 text-center">
-        <h1 className="text-2xl text-gray-800 dark:text-gray-100">
-          Wroniak to prosta i intuicyjna platforma stworzona specjalnie dla studentów, którzy szukają pracy dorywczej, stażu lub pierwszego doświadczenia zawodowego.
+      <div className="my-4 md:my-6 text-center px-4">
+        <h1 className="text-xl md:text-2xl lg:text-3xl text-gray-800 dark:text-gray-100 leading-tight">
+          Wroniak to platforma stworzona specjalnie dla studentów, którzy szukają pracy dorywczej, stażu lub pierwszego doświadczenia zawodowego.
         </h1>
-        <p className="mt-4 text-gray-600 dark:text-gray-400">
+        <p className="mt-3 md:mt-4 text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-4xl mx-auto leading-relaxed">
           Naszym celem jest łączenie młodych, ambitnych osób z pracodawcami oferującymi elastyczne i przyjazne studentom oferty. Znajdziesz tutaj ogłoszenia z różnych branż — od gastronomii i sprzedaży, po IT, marketing czy pracę zdalną.
         </p>
       </div>
@@ -88,35 +88,35 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
       </div>
 
       {/* Основной контент с местом для Auto Ads */}
-      <div className="min-h-[600px]">
-        {/* Контейнер с отступами для боковой рекламы на десктопе */}
-        <div className="lg:mx-16 xl:mx-32">
+      <div className="min-h-[600px] px-4">
+        {/* Контейнер с ограниченной шириной для лучшей читаемости */}
+        <div className="max-w-4xl mx-auto">
           {items.length > 0 ? (
-            <ul className="space-y-4">
+            <ul className="space-y-3 md:space-y-4">
               {items.map((item: any, index: number) => (
                 <div key={item._id}>
-                  <li className="block p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
+                  <li className="block p-3 md:p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
                     <a
                       href={item.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block"
                     >
-                      <h2 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400">
+                      <h2 className="text-base md:text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2 line-clamp-2">
                         {item.title}
                       </h2>
-                      <p className="text-gray-700 dark:text-gray-300">
-                        Firma: {item.company}
+                      <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-1">
+                        <span className="font-medium">Firma:</span> {item.company}
                       </p>
-                      <p className="text-gray-500 text-sm dark:text-gray-400">
-                        Source: {item.source}
+                      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
+                        <span className="font-medium">Źródło:</span> {item.source}
                       </p>
                     </a>
                   </li>
                   
                   {/* Реклама каждые 8 вакансий на мобильных */}
                   {(index + 1) % 8 === 0 && (
-                    <div className="my-6 md:hidden">
+                    <div className="my-4 md:my-6 md:hidden">
                       <AdBanner 
                         adSlot="1234567891" 
                         adFormat="rectangle"
@@ -128,21 +128,23 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
               ))}
             </ul>
           ) : (
-            <div className="flex flex-col items-center justify-center py-20 text-center">
-              <div className="text-6xl mb-4">🔍</div>
-              <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
+            <div className="flex flex-col items-center justify-center py-12 md:py-20 text-center px-4">
+              <div className="text-4xl md:text-6xl mb-4">🔍</div>
+              <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
                 Nie znaleziono ofert pracy
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-6">
+              <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-4 md:mb-6 max-w-md">
                 Spróbuj zmienić kryteria wyszukiwania lub sprawdź ponownie później.
               </p>
-              <div className="text-sm text-gray-500 dark:text-gray-500">
+              <div className="text-xs md:text-sm text-gray-500 dark:text-gray-500">
                 Znaleziono {totalItems} ofert pracy
               </div>
             </div>
           )}
           
-          <PaginationControls currentPage={page} totalPages={totalPages} />
+          <div className="mt-6 md:mt-8 mb-12 md:mb-16">
+            <PaginationControls currentPage={page} totalPages={totalPages} />
+          </div>
         </div>
       </div>
       

@@ -65,6 +65,24 @@ main {
 
 
 
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Logo emoji styling */
+.logo-emoji {
+  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.3));
+  transition: filter 0.3s ease;
+}
+
+.dark .logo-emoji {
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4)) drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+}
+
 @layer base {
   html,
   body {

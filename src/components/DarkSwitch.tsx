@@ -12,13 +12,12 @@ const ThemeChanger = () => {
   if (!mounted) return null;
 
   return (
-    <div className="flex items-center order-last ">
-      {theme === "dark" ? (
+    <div className="flex items-center order-last">
+      {theme === "light" ? (
         <button
-          onClick={() => setTheme("light")}
-          className="text-gray-300 rounded-full outline-none focus:outline-none ">
-          <span className="sr-only">Light Mode</span>
-
+          onClick={() => setTheme("dark")}
+          className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
+          <span className="sr-only">Dark Mode</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"
@@ -29,9 +28,9 @@ const ThemeChanger = () => {
         </button>
       ) : (
         <button
-          onClick={() => setTheme("dark")}
-          className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
-          <span className="sr-only">Dark Mode</span>
+          onClick={() => setTheme("light")}
+          className="text-gray-300 rounded-full outline-none focus:outline-none">
+          <span className="sr-only">Light Mode</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

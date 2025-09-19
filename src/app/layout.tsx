@@ -35,7 +35,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <ConsentBanner />
           <Navbar />
           <main className="flex-1">
