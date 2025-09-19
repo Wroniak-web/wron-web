@@ -1,8 +1,19 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2025-09-18T17:37:40.372Z",
+  "lastUpdated": "2025-09-19T07:55:43.840Z",
   "count": 20,
   "jobs": [
+    {
+      "title": "IT Junior Researcher NOWA",
+      "company": "OpsTalent",
+      "salary": "5 000 – 8 000 PLN",
+      "salaryMin": 5000,
+      "salaryMax": 8000,
+      "salaryType": "monthly",
+      "location": "Wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/it-junior-researcher-opstalent-wroclaw",
+      "source": "nofluffjobs"
+    },
     {
       "title": "Junior Security Analyst NOWA",
       "company": "Comscore (via CC)",
@@ -37,7 +48,7 @@
       "source": "nofluffjobs"
     },
     {
-      "title": "Junior Linux Engineer in Big Data Validation NOWA",
+      "title": "Junior Linux Engineer in Big Data Validation",
       "company": "Comscore (via CC)",
       "salary": "6 000 – 8 000 PLN",
       "salaryMin": 6000,
@@ -48,7 +59,7 @@
       "source": "nofluffjobs"
     },
     {
-      "title": "Junior Product Owner NOWA",
+      "title": "Junior Product Owner",
       "company": "CDQ Poland",
       "salary": "11 760 – 16 800 PLN",
       "salaryMin": 11760,
@@ -70,20 +81,9 @@
       "source": "nofluffjobs"
     },
     {
-      "title": "IT Junior Researcher",
-      "company": "OpsTalent",
-      "salary": "5 000 – 8 000 PLN",
-      "salaryMin": 5000,
-      "salaryMax": 8000,
-      "salaryType": "monthly",
-      "location": "Wroclaw",
-      "url": "https://nofluffjobs.com/pl/job/it-junior-researcher-opstalent-wroclaw",
-      "source": "nofluffjobs"
-    },
-    {
       "title": "Młodszy Specjalista ds. Sprzedaży NOWA",
       "company": "SDP Nieruchomości",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -105,7 +105,7 @@
     {
       "title": "Salesforce Developer Course free NOWA",
       "company": "Synebo",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -116,7 +116,7 @@
     {
       "title": "Software Packaging Junior Engineer NOWA",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -127,7 +127,7 @@
     {
       "title": "Junior Software Developer NOWA",
       "company": "Sportradar",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -136,9 +136,9 @@
       "source": "nofluffjobs"
     },
     {
-      "title": "Intern Application Consultant with German NOWA",
+      "title": "Intern Application Consultant with German",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -149,7 +149,7 @@
     {
       "title": "Junior Application Consultant with Cloud",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -160,7 +160,7 @@
     {
       "title": "Customer Support with German",
       "company": "Antal",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -171,7 +171,7 @@
     {
       "title": "Młodszy Specjalista ds. Wsparcia i Testowania Aplikacji - Zespół Tax Technology",
       "company": "KPMG",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -182,7 +182,7 @@
     {
       "title": "Junior .NET Developer with Angular",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -193,7 +193,7 @@
     {
       "title": "Junior Power Apps Developer",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -204,7 +204,7 @@
     {
       "title": "Intern PowerApps Developer",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
