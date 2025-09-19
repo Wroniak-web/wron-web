@@ -2,6 +2,13 @@
 
 import { useEffect } from 'react';
 
+// Расширяем тип Window для gtag
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
 export default function ConsentBanner() {
   useEffect(() => {
     // Загружаем Google CMP только если пользователь в EEA
