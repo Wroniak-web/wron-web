@@ -65,7 +65,7 @@ module.exports = async function parseNoFluffJobs(page) {
                       salaryType: salaryType, 
                       location, 
                       url, 
-                      source: 'nofluffjobs' 
+                      source: 'nofluffjobs.com' 
                   };
               });
           });

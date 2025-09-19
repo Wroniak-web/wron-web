@@ -99,7 +99,7 @@ module.exports = async function parseRocketJobs(page) {
         console.log(`Total extracted ${jobsArray.length} jobs from rocketJobs`);
         return jobsArray.map(job => ({
           ...job,
-          source: 'rocketjobs',
+          source: 'rocketjobs.pl',
         }));
       } catch (error) {
         console.error('Error in parseJustJoin:', error);

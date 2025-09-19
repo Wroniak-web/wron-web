@@ -16,8 +16,8 @@ module.exports = async function parsePracuj(page) {
             const urlElement = job.querySelector('a');
             const salaryElement = job.querySelector('[data-test="offer-salary"]');
   
-            const title = titleElement ? titleElement.innerText.trim() : 'Нет названия';
-            const company = companyElement ? companyElement.innerText.trim() : 'Нет компании';
+            const title = titleElement ? titleElement.innerText.trim() : 'No title';
+            const company = companyElement ? companyElement.innerText.trim() : 'Unknown company';
             const url = urlElement ? urlElement.href : 'No URL';
 
             const salaryText = salaryElement ? salaryElement.innerText.replace(/\s/g, '').trim() : null; // Удаляем пробелы
@@ -76,7 +76,7 @@ module.exports = async function parsePracuj(page) {
   
       const uniqueJobs = Array.from(jobs.values()).map(job => ({
         ...job,
-        source: 'pracuj',
+        source: 'pracuj.pl',
       }));
       console.log(`Total extracted ${uniqueJobs.length} jobs from pracuj.pl`);
       return uniqueJobs;

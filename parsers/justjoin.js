@@ -96,7 +96,7 @@ module.exports = async function parseJustJoin(page) {
       console.log(`Total extracted ${jobsArray.length} jobs from justjoin.it`);
       return jobsArray.map(job => ({
         ...job,
-        source: 'justjoinit',
+        source: 'justjoin.it',
       }));
     } catch (error) {
       console.error('Error in parseJustJoin:', error);

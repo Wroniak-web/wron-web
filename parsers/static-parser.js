@@ -52,17 +52,17 @@ async function parseAllSites() {
     const urls = [
         { 
             url: 'https://www.pracuj.pl/praca/wroclaw;wp?rd=10&et=1,3,17&wm=hybrid,full-office&campaignid=18376894232&adgroupid=144457199267', 
-            source: 'pracuj',
+            source: 'pracuj.pl',
             parser: parsePracuj
         },
         { 
             url: 'https://justjoin.it/job-offers/wroclaw?experience-level=junior&orderBy=DESC&sortBy=published', 
-            source: 'justjoinit',
+            source: 'justjoin.it',
             parser: parseJustJoin
         },
         { 
             url: 'https://rocketjobs.pl/oferty-pracy/wroclaw?doswiadczenie=staz-junior&orderBy=DESC&sortBy=published', 
-            source: 'rocketJobs',
+            source: 'rocketjobs.pl',
             parser: parseRocketJobs
         },
         { 
@@ -77,7 +77,7 @@ async function parseAllSites() {
         },
         { 
             url: 'https://nofluffjobs.com/pl/wroclaw?criteria=seniority%3Dtrainee,junior', 
-            source: 'nofluffjobs',
+            source: 'nofluffjobs.com',
             parser: parseNoFluffJobs
         },
         { 

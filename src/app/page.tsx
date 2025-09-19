@@ -153,17 +153,16 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
           Naszym celem jest łączenie młodych, ambitnych osób z pracodawcami oferującymi elastyczne i przyjazne studentom oferty. Znajdziesz tutaj ogłoszenia z różnych branż — od gastronomii i sprzedaży, po IT, marketing czy pracę zdalną.
         </p>
       </div>
-      <SearchBar initialQuery={searchQuery} />
-      
-      {/* Фильтры */}
-      <JobFilters 
-        initialFilters={filters}
-      />
-
       {/* Основной контент с местом для Auto Ads */}
       <div className="min-h-[600px] px-4">
         {/* Контейнер с ограниченной шириной для лучшей читаемости */}
         <div className="max-w-4xl mx-auto">
+          <SearchBar initialQuery={searchQuery} />
+          
+          {/* Фильтры */}
+          <JobFilters 
+            initialFilters={filters}
+          />
           {items.length > 0 ? (
             <ul className="space-y-3 md:space-y-4">
               {items.map((item: any, index: number) => (
