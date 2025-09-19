@@ -200,14 +200,17 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
                 Spróbuj zmienić kryteria wyszukiwania lub sprawdź ponownie później.
               </p>
               <div className="text-xs md:text-sm text-gray-500 dark:text-gray-500">
-                Znaleziono {totalItems} ofert pracy
+                {totalItems === 0 ? 'Brak ofert pracy' : `Znaleziono ${totalItems} ofert pracy`}
               </div>
             </div>
           )}
           
-          <div className="mt-6 md:mt-8 mb-12 md:mb-16">
-            <PaginationControls currentPage={page} totalPages={totalPages} />
-          </div>
+          {/* Показываем пагинацию только если есть результаты */}
+          {items.length > 0 && (
+            <div className="mt-6 md:mt-8 mb-12 md:mb-16">
+              <PaginationControls currentPage={page} totalPages={totalPages} />
+            </div>
+          )}
         </div>
       </div>
     </Container>
