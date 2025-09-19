@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import ConsentBanner from "@/components/ConsentBanner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider attribute="class">
+          <ConsentBanner />
           <Navbar />
           <main className="flex-1">
             {children}

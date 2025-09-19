@@ -40,10 +40,12 @@
 4. **Адаптивные рекламные блоки** - для всех устройств
 5. **Vercel Analytics** - отслеживание посетителей
 6. **Speed Insights** - мониторинг производительности
+7. **GDPR Consent Banner** - для пользователей из EEA
 
 **Файлы:**
-- `src/app/layout.tsx` - AdSense скрипт + meta тег + Analytics
+- `src/app/layout.tsx` - AdSense скрипт + meta тег + Analytics + Consent
 - `src/components/AdBanner.tsx` - компонент рекламы
+- `src/components/ConsentBanner.tsx` - GDPR consent management
 - `public/ads.txt` - верификация (https://wroniak.vercel.app/ads.txt)
 
 ### 5. Мониторинг и аналитика
