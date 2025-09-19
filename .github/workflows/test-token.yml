@@ -1,0 +1,30 @@
+name: Test Token Access
+
+on:
+  workflow_dispatch: # Только ручной запуск
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Test token access
+        run: |
+          echo "Testing GitHub token access..."
+          echo "Repository: ${{ github.repository }}"
+          echo "Token available: ${{ secrets.GITHUB_TOKEN != '' }}"
+          
+      - name: Test push (dry run)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          echo "Test file created at $(date)" > test-token.txt
+          git add test-token.txt
+          git commit -m "Test token access - $(date)" || echo "No changes to commit"
+          echo "Push test completed (dry run)"
