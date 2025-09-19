@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "Wroniak",
   description: "Find jobs in Wroclaw",
   icons: {
-    icon: '/favicon.svg',
-    apple: '/favicon.svg'
+    icon: '/favicon.svg?v=2',
+    apple: '/favicon.svg?v=2'
   },
   other: {
     "google-adsense-account": "ca-pub-3205919903681434",
@@ -32,8 +32,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg?v=2" />
+        <link rel="shortcut icon" href="/favicon.svg?v=2" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3205919903681434"
