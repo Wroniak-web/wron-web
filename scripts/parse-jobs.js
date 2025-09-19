@@ -11,6 +11,7 @@ const parseAmazon = require('../parsers/amazon');
 const parseNoFluffJobs = require('../parsers/nofluffjobs');
 const parseLinkedIn = require('../parsers/linkedin');
 const parseOlx = require('../parsers/olx');
+const { addLogosToJobs } = require('../parsers/logo-fetcher');
 
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
@@ -154,11 +155,15 @@ async function createCombinedFile() {
             index === self.findIndex(j => j.url === job.url)
         );
         
+        // Добавляем логотипы к вакансиям
+        console.log('🎨 Adding company logos...');
+        const jobsWithLogos = await addLogosToJobs(uniqueJobs);
+        
         const combinedData = {
             lastUpdated: new Date().toISOString(),
-            totalCount: uniqueJobs.length,
+            totalCount: jobsWithLogos.length,
             sources: jobFiles.length,
-            jobs: uniqueJobs
+            jobs: jobsWithLogos
         };
         
         const combinedPath = path.join(DATA_DIR, 'all-jobs.json');

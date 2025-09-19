@@ -2,17 +2,62 @@
 
 import { useRouter } from "next/navigation";
 
+interface FilterState {
+  workType: string[];
+  location: string[];
+  dateRange: string;
+}
+
 export default function PaginationControls({
   currentPage,
   totalPages,
+  searchQuery = '',
+  filters = { workType: [], location: [], dateRange: 'all' }
 }: {
   currentPage: number;
   totalPages: number;
+  searchQuery?: string;
+  filters?: FilterState;
 }) {
   const router = useRouter();
 
   const handlePageChange = (page: number) => {
-    router.push(`/?page=${page}`);
+    console.log('🔄 Changing page to:', page);
+    console.log('🔍 Current searchQuery:', searchQuery);
+    console.log('🔍 Current filters:', filters);
+    
+    const params = new URLSearchParams();
+    
+    // Добавляем поисковый запрос
+    if (searchQuery) {
+      params.set('search', searchQuery);
+    }
+    
+    // Добавляем фильтры
+    if (filters.workType.length > 0) {
+      filters.workType.forEach(workType => {
+        params.append('workType', workType);
+      });
+    }
+    
+    if (filters.location.length > 0) {
+      filters.location.forEach(location => {
+        params.append('location', location);
+      });
+    }
+    
+    if (filters.dateRange !== 'all') {
+      params.set('dateRange', filters.dateRange);
+    }
+    
+    // Добавляем страницу
+    params.set('page', page.toString());
+    
+    const newUrl = `/?${params.toString()}`;
+    console.log('🌐 Navigating to:', newUrl);
+    
+    // Переходим на новую страницу с сохранением всех параметров
+    router.push(newUrl);
   };
 
   const handleNextPage = () => {
@@ -30,41 +75,45 @@ export default function PaginationControls({
   // Генерация номеров страниц
   const getPageNumbers = () => {
     const pages: number[] = [];
+    const maxVisiblePages = 7; // Максимум видимых страниц
 
-    // Всегда добавляем первую страницу
-    if (currentPage > 3) {
+    if (totalPages <= maxVisiblePages) {
+      // Если страниц мало, показываем все
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      // Всегда добавляем первую страницу
       pages.push(1);
+
+      // Добавляем "..." если текущая страница далеко от начала
+      if (currentPage > 4) {
+        pages.push(-1); // -1 будет обозначать "..."
+      }
+
+      // Добавляем страницы вокруг текущей
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+
+      for (let i = start; i <= end; i++) {
+        if (i !== 1 && i !== totalPages) {
+          pages.push(i);
+        }
+      }
+
+      // Добавляем "..." если текущая страница далеко от конца
+      if (currentPage < totalPages - 3) {
+        pages.push(-1); // -1 будет обозначать "..."
+      }
+
+      // Всегда добавляем последнюю страницу (если не первая)
+      if (totalPages > 1) {
+        pages.push(totalPages);
+      }
     }
 
-    // Добавляем "..." перед текущим блоком страниц, если нужно
-    if (currentPage > 4) {
-      pages.push(-1); // -1 будет обозначать "..."
-    }
-
-    // Добавляем до 2 страниц перед текущей
-    for (let i = Math.max(1, currentPage - 2); i < currentPage; i++) {
-      pages.push(i);
-    }
-
-    // Добавляем текущую страницу
-    pages.push(currentPage);
-
-    // Добавляем до 2 страниц после текущей
-    for (let i = currentPage + 1; i <= Math.min(totalPages, currentPage + 2); i++) {
-      pages.push(i);
-    }
-
-    // Добавляем "..." после текущего блока страниц, если нужно
-    if (currentPage + 2 < totalPages - 1) {
-      pages.push(-1); // -1 будет обозначать "..."
-    }
-
-    // Всегда добавляем последнюю страницу
-    if (currentPage + 2 < totalPages) {
-      pages.push(totalPages);
-    }
-
-    return pages;
+    // Удаляем дубликаты
+    return [...new Set(pages)];
   };
 
   const pageNumbers = getPageNumbers();

@@ -4,11 +4,24 @@ const nextConfig = {
   generateEtags: false,
   poweredByHeader: false,
   
+  // Настройки для изображений
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'logo.clearbit.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+    unoptimized: true, // Отключаем оптимизацию для внешних изображений
+  },
+  
   // Настройки для favicon
   async headers() {
     return [
       {
-        source: '/favicon.ico',
+        source: '/favicon.svg',
         headers: [
           {
             key: 'Cache-Control',

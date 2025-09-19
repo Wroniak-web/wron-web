@@ -2,6 +2,8 @@ import { Container } from "@/components/Container";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
 import JobFilters, { FilterState } from "@/components/JobFilters";
+import CompanyLogo from "@/components/CompanyLogo";
+import PageLoader from "@/components/PageLoader";
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -114,6 +116,8 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "",
     const endIndex = startIndex + limit;
     const paginatedItems = items.slice(startIndex, endIndex);
     
+    console.log(`Page ${page}: showing items ${startIndex}-${endIndex} of ${items.length} total items`);
+    
     return {
       items: paginatedItems,
       totalItems: items.length,
@@ -139,9 +143,13 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
     dateRange: searchParams.dateRange || 'all',
   };
   
+  console.log('🔍 Search params:', { page, searchQuery, filters });
+  
   const { items, totalItems } = await fetchItems(page, limit, searchQuery, filters); // Загрузить данные с сервера
 
   const totalPages = Math.ceil(totalItems / limit); // Рассчитать общее количество страниц
+  
+  console.log('📊 Results:', { itemsCount: items.length, totalItems, totalPages, currentPage: page });
 
   return (
     <Container>
@@ -163,51 +171,72 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
           <JobFilters 
             initialFilters={filters}
           />
-          {items.length > 0 ? (
-            <ul className="space-y-3 md:space-y-4">
-              {items.map((item: any, index: number) => (
-                <div key={item._id}>
-                  <li className="block p-3 md:p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block"
-                    >
-                      <h2 className="text-base md:text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2 line-clamp-2">
-                        {item.title}
-                      </h2>
-                      <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-1">
-                        <span className="font-medium">Firma:</span> {item.company}
-                      </p>
-                      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
-                        <span className="font-medium">Źródło:</span> {item.source}
-                      </p>
-                    </a>
-                  </li>
-                  
-                </div>
-              ))}
-            </ul>
-          ) : (
-            <div className="flex flex-col items-center justify-center py-12 md:py-20 text-center px-4">
-              <div className="text-4xl md:text-6xl mb-4">🔍</div>
-              <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
-                Nie znaleziono ofert pracy
-              </h2>
-              <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-4 md:mb-6 max-w-md">
-                Spróbuj zmienić kryteria wyszukiwania lub sprawdź ponownie później.
-              </p>
-              <div className="text-xs md:text-sm text-gray-500 dark:text-gray-500">
-                {totalItems === 0 ? 'Brak ofert pracy' : `Znaleziono ${totalItems} ofert pracy`}
-              </div>
+          <PageLoader isLoading={false}>
+            {items.length > 0 ? (
+              <div className="relative">
+                <ul className="space-y-3 md:space-y-4">
+                  {items.map((item: any, index: number) => (
+                    <div key={`${item._id}-${page}`}>
+                      <li className="block p-3 md:p-4 border rounded-lg shadow hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
+                        <div className="flex items-start space-x-3">
+                        <CompanyLogo 
+                          key={`${item.company}-${item._id}-${page}`}
+                          companyName={item.company}
+                          logoUrl={item.logoUrl}
+                          className="flex-shrink-0 mt-1" 
+                        />
+                          <div className="flex-1 min-w-0">
+                            <h2 className="text-base md:text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2 line-clamp-2">
+                              {item.title}
+                            </h2>
+                            {item.company && item.company !== "No company" && (
+                              <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-1">
+                                <span className="font-medium">Firma:</span> {item.company}
+                              </p>
+                            )}
+                            <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
+                              <span className="font-medium">Źródło:</span> {item.source}
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    
+                  </div>
+                ))}
+              </ul>
             </div>
-          )}
+            ) : (
+              <div className="flex flex-col items-center justify-center py-12 md:py-20 text-center px-4">
+                <div className="text-4xl md:text-6xl mb-4">🔍</div>
+                <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Nie znaleziono ofert pracy
+                </h2>
+                <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mb-4 md:mb-6 max-w-md">
+                  Spróbuj zmienić kryteria wyszukiwania lub sprawdź ponownie później.
+                </p>
+                <div className="text-xs md:text-sm text-gray-500 dark:text-gray-500">
+                  {totalItems === 0 ? 'Brak ofert pracy' : `Znaleziono ${totalItems} ofert pracy`}
+                </div>
+              </div>
+            )}
+          </PageLoader>
           
           {/* Показываем пагинацию только если есть результаты */}
           {items.length > 0 && (
             <div className="mt-6 md:mt-8 mb-12 md:mb-16">
-              <PaginationControls currentPage={page} totalPages={totalPages} />
+              <PaginationControls 
+                currentPage={page} 
+                totalPages={totalPages}
+                searchQuery={searchQuery}
+                filters={filters}
+              />
             </div>
           )}
         </div>
