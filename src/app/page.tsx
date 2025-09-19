@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
+import JobFilters, { FilterState } from "@/components/JobFilters";
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -17,7 +18,7 @@ async function readJsonFile(filename: string) {
   }
 }
 
-async function fetchItems(page: number, limit: number, searchQuery: string = "") {
+async function fetchItems(page: number, limit: number, searchQuery: string = "", filters: FilterState = { source: [], workType: [], location: [], dateRange: 'all' }) {
   try {
     const data = await readJsonFile('all-jobs.json');
     if (!data) {
@@ -38,6 +39,80 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "")
         job.location?.toLowerCase().includes(query)
       );
     }
+
+    // Применяем фильтры
+    if (filters.source.length > 0) {
+      items = items.filter((job: any) => 
+        filters.source.includes(job.source?.toLowerCase())
+      );
+    }
+
+    if (filters.workType.length > 0) {
+      items = items.filter((job: any) => {
+        const title = job.title?.toLowerCase() || '';
+        const description = job.description?.toLowerCase() || '';
+        const text = `${title} ${description}`;
+        
+        return filters.workType.some(type => {
+          switch (type) {
+            case 'internship':
+              return text.includes('staż') || text.includes('intern') || text.includes('praktyk');
+            case 'full-time':
+              return text.includes('pełny etat') || text.includes('full-time') || text.includes('pełny wymiar');
+            case 'part-time':
+              return text.includes('część etatu') || text.includes('part-time') || text.includes('dorywcz');
+            case 'contract':
+              return text.includes('kontrakt') || text.includes('contract') || text.includes('umowa');
+            default:
+              return false;
+          }
+        });
+      });
+    }
+
+    if (filters.location.length > 0) {
+      items = items.filter((job: any) => {
+        const title = job.title?.toLowerCase() || '';
+        const description = job.description?.toLowerCase() || '';
+        const text = `${title} ${description}`;
+        
+        return filters.location.some(location => {
+          switch (location) {
+            case 'wroclaw':
+              return text.includes('wrocław') || text.includes('wroclaw');
+            case 'remote':
+              return text.includes('zdalnie') || text.includes('remote') || text.includes('home office');
+            case 'hybrid':
+              return text.includes('hybrydowo') || text.includes('hybrid') || text.includes('częściowo zdalnie');
+            default:
+              return false;
+          }
+        });
+      });
+    }
+
+    if (filters.dateRange !== 'all') {
+      const now = new Date();
+      const filterDate = new Date();
+      
+      switch (filters.dateRange) {
+        case 'today':
+          filterDate.setDate(now.getDate() - 1);
+          break;
+        case 'week':
+          filterDate.setDate(now.getDate() - 7);
+          break;
+        case 'month':
+          filterDate.setMonth(now.getMonth() - 1);
+          break;
+      }
+      
+      items = items.filter((job: any) => {
+        if (!job.date) return true;
+        const jobDate = new Date(job.date);
+        return jobDate >= filterDate;
+      });
+    }
     
     // Пагинация
     const startIndex = (page - 1) * limit;
@@ -57,11 +132,20 @@ async function fetchItems(page: number, limit: number, searchQuery: string = "")
   }
 }
 
-export default async function Home({ searchParams }: { searchParams: { page?: string; search?: string } }) {
+export default async function Home({ searchParams }: { searchParams: { page?: string; search?: string; source?: string | string[]; workType?: string | string[]; location?: string | string[]; dateRange?: string } }) {
   const page = parseInt(searchParams.page || "1", 10); // Получить текущую страницу из URL
   const limit = 10; // Количество элементов на странице
   const searchQuery = searchParams.search || ""; // Получить текст поиска из URL
-  const { items, totalItems } = await fetchItems(page, limit, searchQuery); // Загрузить данные с сервера
+  
+  // Парсим фильтры из URL параметров
+  const filters: FilterState = {
+    source: searchParams.source ? (Array.isArray(searchParams.source) ? searchParams.source : [searchParams.source]) : [],
+    workType: searchParams.workType ? (Array.isArray(searchParams.workType) ? searchParams.workType : [searchParams.workType]) : [],
+    location: searchParams.location ? (Array.isArray(searchParams.location) ? searchParams.location : [searchParams.location]) : [],
+    dateRange: searchParams.dateRange || 'all',
+  };
+  
+  const { items, totalItems } = await fetchItems(page, limit, searchQuery, filters); // Загрузить данные с сервера
 
   const totalPages = Math.ceil(totalItems / limit); // Рассчитать общее количество страниц
 
@@ -76,6 +160,15 @@ export default async function Home({ searchParams }: { searchParams: { page?: st
         </p>
       </div>
       <SearchBar initialQuery={searchQuery} />
+      
+      {/* Фильтры */}
+      <JobFilters 
+        onFiltersChange={(newFilters) => {
+          // В серверном компоненте мы не можем обновлять состояние
+          // Фильтры будут применяться через URL параметры
+        }}
+        initialFilters={filters}
+      />
 
       {/* Основной контент с местом для Auto Ads */}
       <div className="min-h-[600px] px-4">
