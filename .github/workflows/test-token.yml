@@ -13,14 +13,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         
       - name: Test token access
         run: |
           echo "Testing GitHub token access..."
           echo "Repository: ${{ github.repository }}"
-          echo "Token available: ${{ secrets.PERSONAL_ACCESS_TOKEN != '' }}"
+          echo "Built-in token available: ${{ secrets.GITHUB_TOKEN != '' }}"
+          echo "Permissions: contents:write"
           
       - name: Test push (dry run)
         run: |
