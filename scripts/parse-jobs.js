@@ -51,6 +51,21 @@ async function parseAllSites() {
     console.log('🚀 Starting job parsing...');
     await ensureDataDir();
     
+    // Очищаем старые файлы с вакансиями
+    console.log('🧹 Cleaning old job files...');
+    try {
+        const files = await fs.readdir(DATA_DIR);
+        const jobFiles = files.filter(file => file.endsWith('-jobs.json'));
+        
+        for (const file of jobFiles) {
+            const filepath = path.join(DATA_DIR, file);
+            await fs.unlink(filepath);
+            console.log(`🗑️ Deleted old file: ${file}`);
+        }
+    } catch (error) {
+        console.log('No old files to clean or error cleaning:', error.message);
+    }
+    
     const browser = await puppeteer.launch({ 
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
@@ -101,8 +116,8 @@ async function parseAllSites() {
     
     let totalJobs = 0;
     
-    // Параллельный парсинг с таймаутами - запускаем все парсеры одновременно
-    const parsePromises = urls.map(async ({ url, source, parser }) => {
+    // Последовательный парсинг для избежания конфликтов страниц
+    for (const { url, source, parser } of urls) {
         let page = null;
         try {
             console.log(`\n📊 Parsing ${source}...`);
@@ -126,15 +141,13 @@ async function parseAllSites() {
             if (jobs.length > 0) {
                 await saveJobs(jobs, source);
                 console.log(`✅ ${source}: ${jobs.length} jobs`);
-                return jobs.length;
+                totalJobs += jobs.length;
             } else {
                 console.log(`❌ No jobs found for ${source}`);
-                return 0;
             }
             
         } catch (error) {
             console.error(`❌ Error parsing ${source}:`, error.message);
-            return 0;
         } finally {
             if (page) {
                 try {
@@ -143,12 +156,10 @@ async function parseAllSites() {
                     console.log(`Warning: Could not close page for ${source}`);
                 }
             }
+            // Небольшая задержка между парсерами
+            await new Promise(resolve => setTimeout(resolve, 2000));
         }
-    });
-    
-    // Ждем завершения всех парсеров
-    const results = await Promise.all(parsePromises);
-    totalJobs = results.reduce((sum, count) => sum + count, 0);
+    }
     
     await browser.close();
     
@@ -177,10 +188,15 @@ async function createCombinedFile() {
             totalCount += data.count;
         }
         
-        // Удаляем дубликаты по URL
+        // Удаляем дубликаты по URL и названию компании
         const uniqueJobs = allJobs.filter((job, index, self) =>
-            index === self.findIndex(j => j.url === job.url)
+            index === self.findIndex(j => 
+                j.url === job.url || 
+                (j.title === job.title && j.company === job.company)
+            )
         );
+        
+        console.log(`📊 Removed ${allJobs.length - uniqueJobs.length} duplicate jobs`);
         
         // Добавляем логотипы к вакансиям
         console.log('🎨 Adding company logos...');

@@ -1,8 +1,33 @@
 module.exports = async function parseRocketJobs(page) {
       try {
-        console.log('Waiting for [data-test-id="virtuoso-item-list"] selector...');
-        await page.waitForSelector('[data-test-id="virtuoso-item-list"]', { timeout: 60000 });
-        console.log('[data-test-id="virtuoso-item-list"] selector found, starting to scroll and extract jobs...');
+        console.log('Waiting for job list container...');
+        
+        // Пробуем несколько селекторов для поиска списка вакансий
+        const selectors = [
+          '[data-test-id="virtuoso-item-list"]',
+          '[data-testid="job-list"]',
+          '.job-list',
+          '[role="list"]',
+          '.jobs-container',
+          'ul[class*="job"]',
+          'div[class*="job"]'
+        ];
+        
+        let found = false;
+        for (const selector of selectors) {
+          try {
+            await page.waitForSelector(selector, { timeout: 10000 });
+            console.log(`Job list container found with selector: ${selector}`);
+            found = true;
+            break;
+          } catch (e) {
+            console.log(`Selector ${selector} not found, trying next...`);
+          }
+        }
+        
+        if (!found) {
+          console.log('No job container found, trying to extract any job elements...');
+        }
     
         const allJobs = new Map(); // Используем Map для хранения уникальных вакансий
         let hasMore = true;
@@ -11,9 +36,35 @@ module.exports = async function parseRocketJobs(page) {
         const maxScrolls = 10; // Ограничиваем количество скроллов
         
         while (hasMore && scrollCount < maxScrolls) {
+          // Проверяем, что страница еще валидна
+          if (page.isClosed()) {
+            console.log('Page was closed, stopping scroll');
+            break;
+          }
+          
           // Извлекаем данные с текущей видимой области
           const newJobs = await page.evaluate(() => {
-              const jobItems = Array.from(document.querySelectorAll('[data-test-id="virtuoso-item-list"] [item="[object Object]"]'));
+              // Пробуем разные селекторы для поиска вакансий
+              const selectors = [
+                '[data-test-id="virtuoso-item-list"] [item="[object Object]"]',
+                '[data-testid="job-card"]',
+                '.job-card',
+                '[role="listitem"]',
+                'li[class*="job"]',
+                'div[class*="job"]',
+                'article',
+                '.job-item'
+              ];
+              
+              let jobItems = [];
+              for (const selector of selectors) {
+                jobItems = Array.from(document.querySelectorAll(selector));
+                if (jobItems.length > 0) {
+                  console.log(`Found ${jobItems.length} jobs with selector: ${selector}`);
+                  break;
+                }
+              }
+              
               return jobItems.map(job => {
                 const titleElement = job.querySelector('h3');
                 const title = titleElement ? titleElement.innerText.trim() : 'No title';
@@ -85,14 +136,19 @@ module.exports = async function parseRocketJobs(page) {
           console.log(`Extracted ${newJobs.length} jobs, total so far: ${allJobs.size}`);
     
           // Прокручиваем страницу вниз
-          hasMore = await page.evaluate(() => {
-            const footer = document.querySelector('footer');
-            if (footer && footer.getBoundingClientRect().top < window.innerHeight) {
-              return false; // Достигли конца страницы
-            }
-            window.scrollBy(0, 300); // Прокручиваем вниз
-            return true;
-          });
+          try {
+            hasMore = await page.evaluate(() => {
+              const footer = document.querySelector('footer');
+              if (footer && footer.getBoundingClientRect().top < window.innerHeight) {
+                return false; // Достигли конца страницы
+              }
+              window.scrollBy(0, 300); // Прокручиваем вниз
+              return true;
+            });
+          } catch (error) {
+            console.log('Error during scroll, stopping:', error.message);
+            hasMore = false;
+          }
     
           scrollCount++;
           console.log(`Scroll ${scrollCount}/${maxScrolls}`);
