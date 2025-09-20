@@ -66,7 +66,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/data/ data/ || true
+          git add src/data/ || true
+          git add yarn.lock || true
           git commit -m "🤖 Auto-update jobs data - $(date '+%Y-%m-%d %H:%M')" || exit 0
           
           # Принудительно пушим изменения
