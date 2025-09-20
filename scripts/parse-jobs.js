@@ -101,27 +101,37 @@ async function parseAllSites() {
     
     let totalJobs = 0;
     
-    for (const { url, source, parser } of urls) {
+    // Параллельный парсинг - запускаем все парсеры одновременно
+    const parsePromises = urls.map(async ({ url, source, parser }) => {
         try {
             console.log(`\n📊 Parsing ${source}...`);
             const page = await browser.newPage();
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
             
-            await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+            // Уменьшаем timeout и используем более быструю загрузку
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
             const jobs = await parser(page);
             
             if (jobs.length > 0) {
                 await saveJobs(jobs, source);
-                totalJobs += jobs.length;
+                console.log(`✅ ${source}: ${jobs.length} jobs`);
+                return jobs.length;
             } else {
                 console.log(`❌ No jobs found for ${source}`);
+                return 0;
             }
             
-            await page.close();
         } catch (error) {
             console.error(`❌ Error parsing ${source}:`, error.message);
+            return 0;
+        } finally {
+            await page.close();
         }
-    }
+    });
+    
+    // Ждем завершения всех парсеров
+    const results = await Promise.all(parsePromises);
+    totalJobs = results.reduce((sum, count) => sum + count, 0);
     
     await browser.close();
     
