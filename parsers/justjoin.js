@@ -2,6 +2,10 @@ module.exports = async function parseJustJoin(page) {
     try {
       console.log('Waiting for job list container...');
       
+      // Ждем загрузки страницы и пробуем найти контент
+      console.log('Waiting for page to load...');
+      await new Promise(resolve => setTimeout(resolve, 5000)); // Даем время на загрузку
+      
       // Пробуем несколько селекторов для поиска списка вакансий
       const selectors = [
         '[data-test-id="virtuoso-item-list"]',
@@ -10,13 +14,17 @@ module.exports = async function parseJustJoin(page) {
         '[role="list"]',
         '.jobs-container',
         'ul[class*="job"]',
-        'div[class*="job"]'
+        'div[class*="job"]',
+        'main',
+        '.content',
+        '[class*="offer"]',
+        '[class*="listing"]'
       ];
       
       let found = false;
       for (const selector of selectors) {
         try {
-          await page.waitForSelector(selector, { timeout: 10000 });
+          await page.waitForSelector(selector, { timeout: 8000 });
           console.log(`Job list container found with selector: ${selector}`);
           found = true;
           break;
@@ -27,6 +35,19 @@ module.exports = async function parseJustJoin(page) {
       
       if (!found) {
         console.log('No job container found, trying to extract any job elements...');
+        // Дополнительное время для динамической загрузки
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        
+        // Отладочная информация
+        const pageContent = await page.evaluate(() => {
+          return {
+            title: document.title,
+            url: window.location.href,
+            bodyText: document.body.innerText.substring(0, 500),
+            allElements: document.querySelectorAll('*').length
+          };
+        });
+        console.log('Page debug info:', pageContent);
       }
   
       const allJobs = new Map(); // Используем Map для хранения уникальных вакансий
@@ -46,14 +67,22 @@ module.exports = async function parseJustJoin(page) {
         const newJobs = await page.evaluate(() => {
             // Пробуем разные селекторы для поиска вакансий
             const selectors = [
+              'li[class*="offer"]',
+              'li[class*="job"]',
+              'li[class*="listing"]',
+              'li',
               '[data-test-id="virtuoso-item-list"] [item="[object Object]"]',
               '[data-testid="job-card"]',
               '.job-card',
               '[role="listitem"]',
-              'li[class*="job"]',
               'div[class*="job"]',
               'article',
-              '.job-item'
+              '.job-item',
+              '[class*="offer"]',
+              '[class*="listing"]',
+              'a[href*="/offers/"]',
+              'div[class*="offer"]',
+              'div[class*="listing"]'
             ];
             
             let jobItems = [];
@@ -65,15 +94,47 @@ module.exports = async function parseJustJoin(page) {
               }
             }
             
-            return jobItems.map(job => {
-              const titleElement = job.querySelector('h3');
-              const title = titleElement ? titleElement.innerText.trim() : 'No title';
+            return jobItems
+              .filter(job => {
+                // Фильтруем только элементы, которые содержат вакансии
+                const hasTitle = job.querySelector('h3, h2, .title, [class*="title"], a[href*="/offers/"], a[href*="/job/"]');
+                const hasCompany = job.querySelector('div:has(svg[data-testid="ApartmentRoundedIcon"]) span, .company, [class*="company"], span[class*="company"], strong, b');
+                const hasUrl = job.querySelector('a[href*="/offers/"], a[href*="/job/"], a');
+                return hasTitle || hasCompany || hasUrl;
+              })
+              .map(job => {
+              // Ищем заголовок вакансии - обычно это первый текст в элементе
+              let title = 'No title';
+              const titleElement = job.querySelector('h3, h2, .title, [class*="title"], a[href*="/offers/"], a[href*="/job/"]');
+              if (titleElement) {
+                title = titleElement.innerText.trim();
+              } else {
+                // Если нет специального элемента заголовка, берем весь текст и разделяем по строкам
+                const allText = job.innerText.trim();
+                const lines = allText.split('\n').filter(line => line.trim());
+                if (lines.length > 0) {
+                  title = lines[0].trim();
+                }
+              }
           
-              const companyElement = job.querySelector('div:has(svg[data-testid="ApartmentRoundedIcon"]) span');
-              const company = companyElement ? companyElement.innerText.trim() : 'No company';
+              // Ищем название компании - обычно это текст после заголовка
+              let company = 'No company';
+              const companyElement = job.querySelector('div:has(svg[data-testid="ApartmentRoundedIcon"]) span, .company, [class*="company"], span[class*="company"], strong, b');
+              if (companyElement) {
+                company = companyElement.innerText.trim();
+              } else {
+                // Если нет специального элемента компании, ищем в тексте
+                const allText = job.innerText.trim();
+                const lines = allText.split('\n').filter(line => line.trim());
+                if (lines.length > 1) {
+                  company = lines[1].trim();
+                }
+              }
           
-              const urlElement = job.querySelector('a');
-              const url = urlElement ? urlElement.href : 'No URL';
+              // Ищем ссылку на вакансию
+              const urlElement = job.querySelector('a[href*="/offers/"], a[href*="/job/"], a');
+              const url = urlElement ? 
+                (urlElement.href.startsWith('http') ? urlElement.href : `https://justjoin.it${urlElement.getAttribute('href')}`) : 'No URL';
           
               // Извлечение зарплаты
               const salaryContainer = job.querySelector('div:has(span)'); // Контейнер с зарплатой
