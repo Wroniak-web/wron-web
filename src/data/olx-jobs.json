@@ -1,19 +1,8 @@
 {
   "source": "olx",
-  "lastUpdated": "2025-09-20T11:59:46.808Z",
+  "lastUpdated": "2025-09-20T12:21:06.681Z",
   "count": 78,
   "jobs": [
-    {
-      "title": "Staż dla osób z niepełnosprawnościami (Wrocław i okolice)",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/staz-dla-osob-z-niepelnosprawnosciami-wroclaw-i-okolice-CID4-ID170p4v.html",
-      "source": "olx"
-    },
     {
       "title": "Koleżanki do pracy w sklepie internetowym, nauczymy Cię wszystkiego!",
       "company": "No company",
@@ -26,14 +15,25 @@
       "source": "olx"
     },
     {
-      "title": "Praca Montaż Rusztowań",
+      "title": "Kierowca Taxi Uber/Bolt Wrocław – Najlepsze Warunki, Nowe Samochody!",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-montaz-rusztowan-CID4-IDXWzVN.html",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-taxi-uber-bolt-wroclaw-najlepsze-warunki-nowe-samochody-CID4-IDZFgws.html",
+      "source": "olx"
+    },
+    {
+      "title": "MECHANIK - WROCŁAW Serwis Wrocław ul. Opolska",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/mechanik-wroclaw-serwis-wroclaw-ul-opolska-CID4-ID11FL0b.html",
       "source": "olx"
     },
     {
@@ -136,17 +136,6 @@
       "source": "olx"
     },
     {
-      "title": "MECHANIK - WROCŁAW Serwis Wrocław ul. Opolska",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/mechanik-wroclaw-serwis-wroclaw-ul-opolska-CID4-ID11FL0b.html",
-      "source": "olx"
-    },
-    {
       "title": "Praca dla studenta! Kierowca Uber/Bolt - najlepsze warunki, nowe auta!",
       "company": "No company",
       "salary": "No salary",
@@ -158,14 +147,25 @@
       "source": "olx"
     },
     {
-      "title": "Kierowca Taxi Uber/Bolt Wrocław – Najlepsze Warunki, Nowe Samochody!",
+      "title": "Staż dla osób z niepełnosprawnościami (Wrocław i okolice)",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-taxi-uber-bolt-wroclaw-najlepsze-warunki-nowe-samochody-CID4-IDZFgws.html",
+      "url": "https://www.olx.pl/oferta/praca/staz-dla-osob-z-niepelnosprawnosciami-wroclaw-i-okolice-CID4-ID170p4v.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praca Montaż Rusztowań",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-montaz-rusztowan-CID4-IDXWzVN.html",
       "source": "olx"
     },
     {
@@ -235,17 +235,6 @@
       "source": "olx"
     },
     {
-      "title": "zatrudnimy asystentkę stomatologiczną",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/zatrudnimy-asystentke-stomatologiczna-CID4-ID17qab4.html",
-      "source": "olx"
-    },
-    {
       "title": "Pracownik sklepu Żabka",
       "company": "No company",
       "salary": "No salary",
@@ -254,6 +243,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/pracownik-sklepu-zabka-CID4-ID17m2wl.html",
+      "source": "olx"
+    },
+    {
+      "title": "zatrudnimy asystentkę stomatologiczną",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/zatrudnimy-asystentke-stomatologiczna-CID4-ID17qab4.html",
       "source": "olx"
     },
     {
@@ -422,17 +422,6 @@
       "source": "olx"
     },
     {
-      "title": "Praktyki w biurze tłumacza przysięgłego j. angielskiego",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praktyki-w-biurze-tlumacza-przysieglego-j-angielskiego-CID4-ID17qtvv.html",
-      "source": "olx"
-    },
-    {
       "title": "Barber Shop zatrudni Barberów/Barberki",
       "company": "No company",
       "salary": "No salary",
@@ -441,6 +430,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/barber-shop-zatrudni-barberow-barberki-CID4-IDZxdt5.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praktyki w biurze tłumacza przysięgłego j. angielskiego",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praktyki-w-biurze-tlumacza-przysieglego-j-angielskiego-CID4-ID17qtvv.html",
       "source": "olx"
     },
     {
