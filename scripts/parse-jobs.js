@@ -101,16 +101,27 @@ async function parseAllSites() {
     
     let totalJobs = 0;
     
-    // Параллельный парсинг - запускаем все парсеры одновременно
+    // Параллельный парсинг с таймаутами - запускаем все парсеры одновременно
     const parsePromises = urls.map(async ({ url, source, parser }) => {
+        let page = null;
         try {
             console.log(`\n📊 Parsing ${source}...`);
-            const page = await browser.newPage();
+            page = await browser.newPage();
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
             
-            // Уменьшаем timeout и используем более быструю загрузку
-            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-            const jobs = await parser(page);
+            // Добавляем общий таймаут для всего парсинга
+            const parseWithTimeout = Promise.race([
+                (async () => {
+                    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+                    const jobs = await parser(page);
+                    return jobs;
+                })(),
+                new Promise((_, reject) => 
+                    setTimeout(() => reject(new Error('Parser timeout')), 60000) // 1 минута максимум
+                )
+            ]);
+            
+            const jobs = await parseWithTimeout;
             
             if (jobs.length > 0) {
                 await saveJobs(jobs, source);
@@ -125,7 +136,13 @@ async function parseAllSites() {
             console.error(`❌ Error parsing ${source}:`, error.message);
             return 0;
         } finally {
-            await page.close();
+            if (page) {
+                try {
+                    await page.close();
+                } catch (e) {
+                    console.log(`Warning: Could not close page for ${source}`);
+                }
+            }
         }
     });
     

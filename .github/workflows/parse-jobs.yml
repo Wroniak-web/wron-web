@@ -41,7 +41,7 @@ jobs:
           
       - name: Parse jobs
         run: |
-          npm run parse
+          timeout 10m npm run parse || echo "Parse job timed out after 10 minutes"
           
       - name: Check for changes
         id: verify-changed-files
