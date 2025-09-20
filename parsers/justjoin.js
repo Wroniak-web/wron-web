@@ -7,7 +7,10 @@ module.exports = async function parseJustJoin(page) {
       const allJobs = new Map(); // Используем Map для хранения уникальных вакансий
       let hasMore = true;
   
-      while (hasMore) {
+      let scrollCount = 0;
+      const maxScrolls = 10; // Ограничиваем количество скроллов
+      
+      while (hasMore && scrollCount < maxScrolls) {
         // Извлекаем данные с текущей видимой области
         const newJobs = await page.evaluate(() => {
             const jobItems = Array.from(document.querySelectorAll('[data-test-id="virtuoso-item-list"] [item="[object Object]"]'));
@@ -87,7 +90,10 @@ module.exports = async function parseJustJoin(page) {
           window.scrollBy(0, 300); // Прокручиваем вниз
           return true;
         });
-  
+
+        scrollCount++;
+        console.log(`Scroll ${scrollCount}/${maxScrolls}`);
+
         // Задержка для подгрузки новых элементов
         await new Promise(resolve => setTimeout(resolve, 500));
       }
