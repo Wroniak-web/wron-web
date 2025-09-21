@@ -53,10 +53,8 @@ async function findCompanyLogo(companyName) {
       }
     }
     
-    console.log(`No logo found for: ${companyName}`);
     return null;
   } catch (error) {
-    console.log(`Error finding logo for ${companyName}:`, error.message);
     return null;
   }
 }

@@ -78,8 +78,13 @@ async function parseAllSites() {
             parser: parsePracuj
         },
         { 
+            url: 'https://justjoin.it/job-offers/wroclaw?employment-type=internship&orderBy=DESC&sortBy=published', 
+            source: 'justjoin.it',
+            parser: parseJustJoin
+        },
+        { 
             url: 'https://justjoin.it/job-offers/wroclaw?experience-level=junior&orderBy=DESC&sortBy=published', 
-            source: 'justjoinit',
+            source: 'justjoin.it',
             parser: parseJustJoin
         },
         { 
@@ -128,6 +133,13 @@ async function parseAllSites() {
             const parseWithTimeout = Promise.race([
                 (async () => {
                     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+                    
+                    // Проверяем, что страница не закрыта перед вызовом парсера
+                    if (page.isClosed()) {
+                        console.log(`Page is closed for ${source}, skipping...`);
+                        return [];
+                    }
+                    
                     const jobs = await parser(page);
                     return jobs;
                 })(),
