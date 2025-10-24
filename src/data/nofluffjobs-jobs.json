@@ -1,10 +1,10 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2025-10-23T03:08:39.628Z",
+  "lastUpdated": "2025-10-24T03:06:09.423Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Junior Administrator NOWA",
+      "title": "Junior Administrator",
       "company": "Upvanta",
       "salary": "9 450 PLN",
       "salaryMin": 9450,
@@ -81,14 +81,14 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior PMO with German (Sourcing Requisition) NOWA",
+      "title": "Junior Application Consultant with Cloud NOWA",
       "company": "Capgemini Polska Sp. z o.o.",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-pmo-with-german-sourcing-requisition-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-application-consultant-with-cloud-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -103,17 +103,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Ustawiacz narzędzi NOWA",
-      "company": "MAPAL Narzędzia Precyzyjne Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/ustawiacz-narzedzi-mapal-narzedzia-precyzyjne-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Specjalista ds. obsługi klienta z językiem angielskim (Order Management) NOWA",
       "company": "Antal",
       "salary": "Sprawdź zarobki",
@@ -125,7 +114,29 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "DevOps Academy Program NOWA",
+      "title": "Junior PMO with German (Sourcing Requisition)",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-pmo-with-german-sourcing-requisition-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Ustawiacz narzędzi",
+      "company": "MAPAL Narzędzia Precyzyjne Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/ustawiacz-narzedzi-mapal-narzedzia-precyzyjne-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "DevOps Academy Program",
       "company": "CloudForge",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
@@ -136,7 +147,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Młodszy Specjalista ds. Sprzedaży NOWA",
+      "title": "Młodszy Specjalista ds. Sprzedaży",
       "company": "SDP Nieruchomości",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
@@ -210,17 +221,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/specjalista-ds-wsparcia-it-z-jezykiem-niemieckim-capgemini-polska-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with Danish",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-danish-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
