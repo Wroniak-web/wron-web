@@ -1,17 +1,28 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2025-10-29T03:22:11.835Z",
+  "lastUpdated": "2025-10-30T03:17:21.975Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Junior Data Engineer (Databricks) NOWA",
-      "company": "Addepto",
-      "salary": "8 400 – 15 120 PLN",
-      "salaryMin": 8400,
-      "salaryMax": 15120,
+      "title": "Junior Administrator NOWA",
+      "company": "Upvanta",
+      "salary": "9 450 PLN",
+      "salaryMin": 9450,
+      "salaryMax": 9450,
       "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-4",
+      "url": "https://nofluffjobs.com/pl/job/junior-administrator-upvanta-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Security Analyst NOWA",
+      "company": "Comscore (via CC)",
+      "salary": "8 000 – 13 000 PLN",
+      "salaryMin": 8000,
+      "salaryMax": 13000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-security-analyst-comscore-via-cc-wroclaw-2",
       "source": "nofluffjobs.com"
     },
     {
@@ -26,7 +37,18 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Software Engineer (junior) NOWA",
+      "title": "Junior Data Engineer (Databricks)",
+      "company": "Addepto",
+      "salary": "8 400 – 15 120 PLN",
+      "salaryMin": 8400,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-4",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Software Engineer (junior)",
       "company": "Spyrosoft",
       "salary": "7 224 – 11 760 PLN",
       "salaryMin": 7224,
@@ -59,6 +81,17 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Junior Application Consultant with Cloud NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-application-consultant-with-cloud-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Junior Full Stack Java Developer",
       "company": "Infor Polska",
       "salary": "8 000 – 10 000 PLN",
@@ -67,39 +100,6 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-full-stack-java-developer-infor-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Software Configuration Analyst",
-      "company": "CSHARK Sp. z o.o.",
-      "salary": "4 032 – 5 040 PLN",
-      "salaryMin": 4032,
-      "salaryMax": 5040,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-software-configuration-analyst-cshark-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Software Packaging Junior Engineer NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/software-packaging-junior-engineer-capgemini-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Administrator",
-      "company": "Upvanta",
-      "salary": "9 450 PLN",
-      "salaryMin": 9450,
-      "salaryMax": 9450,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-administrator-upvanta-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -114,47 +114,14 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Sales Specialist/ Business Development Specialist with Polish NOWA",
-      "company": "Antal",
+      "title": "Junior DevOps/Clous Engineer NOWA",
+      "company": "CloudForge",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/sales-specialist-business-development-specialist-with-polish-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Sales Specialist NOWA",
-      "company": "Antal",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-sales-specialist-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "German Language HUB by Antal NOWA",
-      "company": "Antal",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/german-language-hub-by-antal-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Upskilling program (Python/Cloud/AI) NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/upskilling-program-python-cloud-ai-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-devops-clous-engineer-cloudforge-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -169,7 +136,62 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "OTC Process & Change Management Junior Consultant NOWA",
+      "title": "Software Packaging Junior Engineer NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/software-packaging-junior-engineer-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Sales Specialist/ Business Development Specialist with Polish",
+      "company": "Antal",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/sales-specialist-business-development-specialist-with-polish-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Sales Specialist",
+      "company": "Antal",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-sales-specialist-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "German Language HUB by Antal",
+      "company": "Antal",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/german-language-hub-by-antal-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Upskilling program (Python/Cloud/AI)",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/upskilling-program-python-cloud-ai-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "OTC Process & Change Management Junior Consultant",
       "company": "Capgemini Polska Sp. z o.o.",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
@@ -199,28 +221,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/specjalista-ds-obslugi-klienta-z-jezykiem-angielskim-order-management-antal-wroclaw-2",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with foreign languages",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-foreign-languages-capgemini-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with German",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-german-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
