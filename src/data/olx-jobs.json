@@ -1,17 +1,17 @@
 {
   "source": "olx",
-  "lastUpdated": "2025-11-17T03:21:10.897Z",
-  "count": 53,
+  "lastUpdated": "2025-11-18T03:16:44.764Z",
+  "count": 60,
   "jobs": [
     {
-      "title": "Praca dodatkowa / podstawowa / Pośrednik ubezpieczeniowo - kredytowy",
+      "title": "Praca Montaż Rusztowań",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-dodatkowa-podstawowa-posrednik-ubezpieczeniowo-kredytowy-CID4-ID17PUwH.html",
+      "url": "https://www.olx.pl/oferta/praca/praca-montaz-rusztowan-CID4-IDXWzVN.html",
       "source": "olx"
     },
     {
@@ -26,14 +26,36 @@
       "source": "olx"
     },
     {
-      "title": "Przedstawiciel handlowy - wysokie zarobki/tygodniówki",
+      "title": "Praca dodatkowa / podstawowa / Pośrednik ubezpieczeniowo - kredytowy",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/przedstawiciel-handlowy-wysokie-zarobki-tygodniowki-CID4-ID1870W1.html",
+      "url": "https://www.olx.pl/oferta/praca/praca-dodatkowa-podstawowa-posrednik-ubezpieczeniowo-kredytowy-CID4-ID17PUwH.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praca bez limitu zarobków – Agent Nieruchomości / Agent Pozyskowy",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-bez-limitu-zarobkow-agent-nieruchomosci-agent-pozyskowy-CID4-ID17wQoT.html",
+      "source": "olx"
+    },
+    {
+      "title": "Kierowca Uber/Bolt - najlepsze warunki! Ty wybierasz dni pracy!",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-uber-bolt-najlepsze-warunki-ty-wybierasz-dni-pracy-CID4-ID17nxf0.html",
       "source": "olx"
     },
     {
@@ -45,17 +67,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/kierowca-taxi-uber-bolt-wroclaw-najlepsze-warunki-nowe-samochody-CID4-IDZFgws.html",
-      "source": "olx"
-    },
-    {
-      "title": "Nowy Barber Shop we Wrocławiu!Szukamy barberów/barberek",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/nowy-barber-shop-we-wroclawiu-szukamy-barberow-barberek-CID4-ID17e3gG.html",
       "source": "olx"
     },
     {
@@ -81,14 +92,14 @@
       "source": "olx"
     },
     {
-      "title": "Praca kierowca TAXI - UBER, BOLT, FREENOW (Работа в такси) Wrocław",
+      "title": "Opiekunka w żlobku",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-kierowca-taxi-uber-bolt-freenow-wroclaw-CID4-ID149bwv.html",
+      "url": "https://www.olx.pl/oferta/praca/opiekunka-w-zlobku-CID4-ID15c3it.html",
       "source": "olx"
     },
     {
@@ -103,25 +114,14 @@
       "source": "olx"
     },
     {
-      "title": "Praca bez limitu zarobków – Agent Nieruchomości / Agent Pozyskowy",
+      "title": "Staż dla osób z niepełnosprawnościami (Wrocław i okolice)",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-bez-limitu-zarobkow-agent-nieruchomosci-agent-pozyskowy-CID4-ID17wQoT.html",
-      "source": "olx"
-    },
-    {
-      "title": "Młodszy Agent Nieruchomości",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/mlodszy-agent-nieruchomosci-CID4-ID188b5T.html",
+      "url": "https://www.olx.pl/oferta/praca/staz-dla-osob-z-niepelnosprawnosciami-wroclaw-i-okolice-CID4-ID170ei9.html",
       "source": "olx"
     },
     {
@@ -136,14 +136,25 @@
       "source": "olx"
     },
     {
-      "title": "Asystent osobisty do organizacji charytatywnej",
+      "title": "Młodszy Agent Nieruchomości",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/asystent-osobisty-do-organizacji-charytatywnej-CID4-ID18e4aE.html",
+      "url": "https://www.olx.pl/oferta/praca/mlodszy-agent-nieruchomosci-CID4-ID188b5T.html",
+      "source": "olx"
+    },
+    {
+      "title": "Blacharz, mechanik, dobra atmosfera, uczciwe zarobki, praca Wrocław.",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/blacharz-mechanik-dobra-atmosfera-uczciwe-zarobki-praca-wroclaw-CID4-ID18jHbB.html",
       "source": "olx"
     },
     {
@@ -169,36 +180,36 @@
       "source": "olx"
     },
     {
-      "title": "Księgowa w biurze rachunkowym",
+      "title": "Asystent osobisty do organizacji charytatywnej",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/ksiegowa-w-biurze-rachunkowym-CID4-IDZdwSV.html",
+      "url": "https://www.olx.pl/oferta/praca/asystent-osobisty-do-organizacji-charytatywnej-CID4-ID18e4aE.html",
       "source": "olx"
     },
     {
-      "title": "nauczyciel lektor języka angielskiego Wrocław",
+      "title": "Mechanik rowerowy serwisant / sprzedawca w sklepie triathlonowym",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/nauczyciel-lektor-jezyka-angielskiego-wroclaw-CID4-ID188cPm.html",
+      "url": "https://www.olx.pl/oferta/praca/mechanik-rowerowy-serwisant-sprzedawca-w-sklepie-triathlonowym-CID4-ID13Uq4s.html",
       "source": "olx"
     },
     {
-      "title": "OFERTA PRACY. Operations and Sales Manager (sprzedaż internetowa)",
+      "title": "Płatny staż w dziale księgowości",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/oferta-pracy-operations-and-sales-manager-sprzedaz-internetowa-CID4-ID16naIO.html",
+      "url": "https://www.olx.pl/oferta/praca/platny-staz-w-dziale-ksiegowosci-CID4-IDKB1T8.html",
       "source": "olx"
     },
     {
@@ -210,6 +221,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/praca-host-kelner-restauracja-piwnica-swidnicka-wroclaw-rynek-CID4-ID18a4NI.html",
+      "source": "olx"
+    },
+    {
+      "title": "PŁATNY STAŻ w Dziale Zakupów – branża automatyki przemysłowej (k/m)",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/platny-staz-w-dziale-zakupow-branza-automatyki-przemyslowej-k-m-CID4-ID183WET.html",
       "source": "olx"
     },
     {
@@ -235,25 +257,14 @@
       "source": "olx"
     },
     {
-      "title": "Płatny staż w dziale księgowości",
+      "title": "OFERTA PRACY. Operations and Sales Manager (sprzedaż internetowa)",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/platny-staz-w-dziale-ksiegowosci-CID4-IDKB1T8.html",
-      "source": "olx"
-    },
-    {
-      "title": "PŁATNY STAŻ w Dziale Zakupów – branża automatyki przemysłowej (k/m)",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/platny-staz-w-dziale-zakupow-branza-automatyki-przemyslowej-k-m-CID4-ID183WET.html",
+      "url": "https://www.olx.pl/oferta/praca/oferta-pracy-operations-and-sales-manager-sprzedaz-internetowa-CID4-ID16naIO.html",
       "source": "olx"
     },
     {
@@ -279,6 +290,17 @@
       "source": "olx"
     },
     {
+      "title": "Barber poszukiwany! Barbera zatrudnimy",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/barber-poszukiwany-barbera-zatrudnimy-CID4-ID18iVMV.html",
+      "source": "olx"
+    },
+    {
       "title": "Mamy pracę dla kelnera/kelnerki tylko na weekendy",
       "company": "No company",
       "salary": "No salary",
@@ -301,25 +323,25 @@
       "source": "olx"
     },
     {
-      "title": "Ambasadorka marki lub Social Content Creator w OneDollarStock.com",
+      "title": "Księgowa w biurze rachunkowym",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/ambasadorka-marki-lub-social-content-creator-w-onedollarstock-com-CID4-ID17YAHV.html",
+      "url": "https://www.olx.pl/oferta/praca/ksiegowa-w-biurze-rachunkowym-CID4-IDZdwSV.html",
       "source": "olx"
     },
     {
-      "title": "Praca biurowa - obsługa klienta w profesjonalnym serwisie mechanicznym",
+      "title": "Przedstawiciel handlowy - wysokie zarobki/tygodniówki",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-biurowa-obsluga-klienta-w-profesjonalnym-serwisie-mechanicznym-CID4-IDLBnij.html",
+      "url": "https://www.olx.pl/oferta/praca/przedstawiciel-handlowy-wysokie-zarobki-tygodniowki-CID4-ID1870W1.html",
       "source": "olx"
     },
     {
@@ -334,6 +356,28 @@
       "source": "olx"
     },
     {
+      "title": "Praca biurowa - obsługa klienta w profesjonalnym serwisie mechanicznym",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-biurowa-obsluga-klienta-w-profesjonalnym-serwisie-mechanicznym-CID4-IDLBnij.html",
+      "source": "olx"
+    },
+    {
+      "title": "nauczyciel lektor języka angielskiego Wrocław",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/nauczyciel-lektor-jezyka-angielskiego-wroclaw-CID4-ID188cPm.html",
+      "source": "olx"
+    },
+    {
       "title": "Zatrudnimy osobę na 0,5 etatu do pracy w kantynie pracowniczej",
       "company": "No company",
       "salary": "No salary",
@@ -345,14 +389,14 @@
       "source": "olx"
     },
     {
-      "title": "Inżynier Elektronik / Mechatronik / Automatyk – Staż płatny",
+      "title": "Ambasadorka marki lub Social Content Creator w OneDollarStock.com",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/inzynier-elektronik-mechatronik-automatyk-staz-platny-CID4-ID17ZCDL.html",
+      "url": "https://www.olx.pl/oferta/praca/ambasadorka-marki-lub-social-content-creator-w-onedollarstock-com-CID4-ID17YAHV.html",
       "source": "olx"
     },
     {
@@ -400,6 +444,17 @@
       "source": "olx"
     },
     {
+      "title": "Inżynier Elektronik / Mechatronik / Automatyk – Staż płatny",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/inzynier-elektronik-mechatronik-automatyk-staz-platny-CID4-ID17ZCDL.html",
+      "source": "olx"
+    },
+    {
       "title": "Warsztat samochodowy zatrudni - mechanika samochodowego / pomocnika",
       "company": "No company",
       "salary": "No salary",
@@ -408,6 +463,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/warsztat-samochodowy-zatrudni-mechanika-samochodowego-pomocnika-CID4-IDParES.html",
+      "source": "olx"
+    },
+    {
+      "title": "Nowy Barber Shop we Wrocławiu!Szukamy barberów/barberek",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/nowy-barber-shop-we-wroclawiu-szukamy-barberow-barberek-CID4-ID17e3gG.html",
       "source": "olx"
     },
     {
@@ -444,14 +510,14 @@
       "source": "olx"
     },
     {
-      "title": "Kierowca kat. B – Własny grafik | TAXI PARTNER | Praca od zaraz",
+      "title": "Praca kierowca TAXI - UBER, BOLT, FREENOW (Работа в такси) Wrocław",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-kat-b-wlasny-grafik-taxi-partner-praca-od-zaraz-CID4-ID16I4p6.html",
+      "url": "https://www.olx.pl/oferta/praca/praca-kierowca-taxi-uber-bolt-freenow-wroclaw-CID4-ID149bwv.html",
       "source": "olx"
     },
     {
@@ -499,17 +565,6 @@
       "source": "olx"
     },
     {
-      "title": "Zatrudnię KONSERWATORA obiektu oraz OPERATORA ładowarko-koparki",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/zatrudnie-konserwatora-obiektu-oraz-operatora-ladowarko-koparki-CID4-ID189NsY.html",
-      "source": "olx"
-    },
-    {
       "title": "Młodszy specjalista wsparcia sprzedaży",
       "company": "No company",
       "salary": "No salary",
@@ -521,14 +576,14 @@
       "source": "olx"
     },
     {
-      "title": "Specjalista ds. dotacji",
+      "title": "Kierowca kat. B – Własny grafik | TAXI PARTNER | Praca od zaraz",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/specjalista-ds-dotacji-CID4-ID13hQaf.html",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-kat-b-wlasny-grafik-taxi-partner-praca-od-zaraz-CID4-ID16I4p6.html",
       "source": "olx"
     },
     {
@@ -543,14 +598,25 @@
       "source": "olx"
     },
     {
-      "title": "KIEROWCA - Uber Bolt Freenow - Rozliczenie 1zł - NAJLEPSZE WARUNKI!",
+      "title": "Zatrudnię KONSERWATORA obiektu oraz OPERATORA ładowarko-koparki",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-uber-bolt-freenow-rozliczenie-1zl-najlepsze-warunki-CID4-ID17YRwt.html",
+      "url": "https://www.olx.pl/oferta/praca/zatrudnie-konserwatora-obiektu-oraz-operatora-ladowarko-koparki-CID4-ID189NsY.html",
+      "source": "olx"
+    },
+    {
+      "title": "Specjalista ds. dotacji",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/specjalista-ds-dotacji-CID4-ID13hQaf.html",
       "source": "olx"
     },
     {
@@ -562,6 +628,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/praca-ktora-ma-sens-fundraiser-ka-greenpeace-dobre-wynagrodzenie-CID4-IDYlmaa.html",
+      "source": "olx"
+    },
+    {
+      "title": "KIEROWCA - Uber Bolt Freenow - Rozliczenie 1zł - NAJLEPSZE WARUNKI!",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-uber-bolt-freenow-rozliczenie-1zl-najlepsze-warunki-CID4-ID17YRwt.html",
       "source": "olx"
     },
     {
