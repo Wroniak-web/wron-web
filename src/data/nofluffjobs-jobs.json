@@ -1,6 +1,6 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2025-11-30T03:30:55.347Z",
+  "lastUpdated": "2025-12-01T03:55:33.091Z",
   "count": 20,
   "jobs": [
     {
@@ -15,7 +15,18 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ/WOLONTARIUSZKA Dyrektor ds. Kreatywnych z wykorzystaniem AI (nano banana) NOWA",
+      "title": "Junior Forward‑Deployed AI Engineer (LLM/ML) NOWA",
+      "company": "Silent Eight",
+      "salary": "16 000 – 25 000 PLN",
+      "salaryMin": 16000,
+      "salaryMax": 25000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-forward-deployed-ai-engineer-llm-ml-silent-eight-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "WOLONTARIUSZ/WOLONTARIUSZKA Dyrektor ds. Kreatywnych z wykorzystaniem AI (nano banana)",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -26,7 +37,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – DZIAŁ ADMINISTRACJI I REKRUTACJI NOWA",
+      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – DZIAŁ ADMINISTRACJI I REKRUTACJI",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -37,7 +48,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – SPECJALISTA/SPECJALISTKA DS. ZARZĄDZANIA DARCZYŃCAMI I PROFILAMI FUNDRAISINGOWYMI NOWA",
+      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – SPECJALISTA/SPECJALISTKA DS. ZARZĄDZANIA DARCZYŃCAMI I PROFILAMI FUNDRAISINGOWYMI",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -48,7 +59,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – SOCIAL MEDIA CREATOR (INSTAGRAM & FACEBOOK) NOWA",
+      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – SOCIAL MEDIA CREATOR (INSTAGRAM & FACEBOOK)",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -56,17 +67,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/wolontariusz-wolontariuszka-social-media-creator-instagram-facebook-fundacja-organic-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Forward‑Deployed AI Engineer (LLM/ML) NOWA",
-      "company": "Silent Eight",
-      "salary": "16 000 – 25 000 PLN",
-      "salaryMin": 16000,
-      "salaryMax": 25000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-forward-deployed-ai-engineer-llm-ml-silent-eight-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -81,14 +81,14 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Specjalista ds. Wsparcia IT z językiem niemieckim NOWA",
+      "title": "Intern Automation Tester with German NOWA",
       "company": "Capgemini Polska Sp. z o.o.",
       "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/specjalista-ds-wsparcia-it-z-jezykiem-niemieckim-capgemini-polska-wroclaw-3",
+      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-polska-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
@@ -100,6 +100,61 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-business-systems-analyst-cshark-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Intern DevOps Engineer with German NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-polska-wroclaw-1",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Młodszy Programista Java z językiem Niemieckim NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/mlodszy-programista-java-z-jezykiem-niemieckim-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Java Developer with German NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-java-developer-with-german-capgemini-polska-wroclaw-3",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Engineer NOWA",
+      "company": "N-iX",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-n-ix-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Specjalista ds. Wsparcia IT z językiem niemieckim NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/specjalista-ds-wsparcia-it-z-jezykiem-niemieckim-capgemini-polska-wroclaw-3",
       "source": "nofluffjobs.com"
     },
     {
@@ -147,17 +202,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Engineer",
-      "company": "N-iX",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-n-ix-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Młodszy Analityk Biznesowo-Systemowy",
       "company": "CSHARK Sp. z o.o.",
       "salary": "5 000 – 6 700 PLN",
@@ -177,50 +221,6 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-5",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "QA Intern",
-      "company": "Godel Technologies Europe",
-      "salary": "1 000 PLN",
-      "salaryMin": 1000,
-      "salaryMax": 1000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/qa-intern-godel-technologies-europe-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior DevOps/Cloud Engineer",
-      "company": "CloudForge",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-devops-cloud-engineer-cloudforge-wroclaw-4",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Obsługa klienta z językiem niemieckim",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with foreign languages",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-foreign-languages-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
