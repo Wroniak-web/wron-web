@@ -1,7 +1,7 @@
 {
   "source": "olx",
-  "lastUpdated": "2026-01-02T03:44:13.222Z",
-  "count": 59,
+  "lastUpdated": "2026-01-03T03:26:45.840Z",
+  "count": 58,
   "jobs": [
     {
       "title": "Дистанційна робота ,дроп-менеджер для Українців у Польщі. Підробіток",
@@ -15,14 +15,14 @@
       "source": "olx"
     },
     {
-      "title": "Praca sprzątanie Wrocław",
+      "title": "Kierowca Taxi Uber/Bolt Wrocław – Najlepsze Warunki, Nowe Samochody!",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praca-sprzatanie-wroclaw-CID4-ID18OXqF.html",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-taxi-uber-bolt-wroclaw-najlepsze-warunki-nowe-samochody-CID4-IDZFgws.html",
       "source": "olx"
     },
     {
@@ -37,14 +37,36 @@
       "source": "olx"
     },
     {
-      "title": "Kierowca Taxi Uber/Bolt Wrocław – Najlepsze Warunki, Nowe Samochody!",
+      "title": "Staż w korporacji z j. angielskim - Helpdesk Analyst",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-taxi-uber-bolt-wroclaw-najlepsze-warunki-nowe-samochody-CID4-IDZFgws.html",
+      "url": "https://www.olx.pl/oferta/praca/staz-w-korporacji-z-j-angielskim-helpdesk-analyst-CID4-ID18Fo2E.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praca sprzątanie Wrocław",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-sprzatanie-wroclaw-CID4-ID18OXqF.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praca: Pan/Pani inżynier budowy; Pan/Pani kierownik robót / Wrocław",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-pan-pani-inzynier-budowy-pan-pani-kierownik-robot-wroclaw-CID4-ID12cgtT.html",
       "source": "olx"
     },
     {
@@ -81,17 +103,6 @@
       "source": "olx"
     },
     {
-      "title": "Heej! Szukasz pracy, która jest totalnym slay?",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/heej-szukasz-pracy-ktora-jest-totalnym-slay-CID4-ID18xgkN.html",
-      "source": "olx"
-    },
-    {
       "title": "Praktyki i Staże w Taskscape Ltd – Informatyka, Cloud, AI",
       "company": "No company",
       "salary": "No salary",
@@ -100,17 +111,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/praktyki-i-staze-w-taskscape-ltd-informatyka-cloud-ai-CID4-ID18MOkn.html",
-      "source": "olx"
-    },
-    {
-      "title": "Staż w korporacji z j. angielskim - Helpdesk Analyst",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/staz-w-korporacji-z-j-angielskim-helpdesk-analyst-CID4-ID18Fo2E.html",
       "source": "olx"
     },
     {
@@ -136,17 +136,6 @@
       "source": "olx"
     },
     {
-      "title": "Kucharz kuchni polskiej (praktykant/junior) - Dubaj z zakwaterowaniem",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kucharz-kuchni-polskiej-praktykant-junior-dubaj-z-zakwaterowaniem-CID4-ID18NZUW.html",
-      "source": "olx"
-    },
-    {
       "title": "Studio FIGURA Wrocław Złotniki - SPRZEDAŻ i modelowanie sylwetki",
       "company": "No company",
       "salary": "No salary",
@@ -169,6 +158,17 @@
       "source": "olx"
     },
     {
+      "title": "Kucharz kuchni polskiej (praktykant/junior) - Dubaj z zakwaterowaniem",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/kucharz-kuchni-polskiej-praktykant-junior-dubaj-z-zakwaterowaniem-CID4-ID18NZUW.html",
+      "source": "olx"
+    },
+    {
       "title": "OGŁOSZENIE O PRACE - kierowca kat. B bus blaszak",
       "company": "No company",
       "salary": "No salary",
@@ -177,28 +177,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/ogloszenie-o-prace-kierowca-kat-b-bus-blaszak-CID4-ID17jtVw.html",
-      "source": "olx"
-    },
-    {
-      "title": "Młodsza księgowa / Młodszy księgowy",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/mlodsza-ksiegowa-mlodszy-ksiegowy-CID4-ID18Eb1r.html",
-      "source": "olx"
-    },
-    {
-      "title": "Firma transportowa zatrudni Spedytora/dyspozytora",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/firma-transportowa-zatrudni-spedytora-dyspozytora-CID4-ID18zADI.html",
       "source": "olx"
     },
     {
@@ -221,6 +199,28 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/mechanik-samochodowy-CID4-ID18ybJR.html",
+      "source": "olx"
+    },
+    {
+      "title": "Firma transportowa zatrudni Spedytora/dyspozytora",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/firma-transportowa-zatrudni-spedytora-dyspozytora-CID4-ID18zADI.html",
+      "source": "olx"
+    },
+    {
+      "title": "Młodsza księgowa / Młodszy księgowy",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/mlodsza-ksiegowa-mlodszy-ksiegowy-CID4-ID18Eb1r.html",
       "source": "olx"
     },
     {
@@ -257,17 +257,6 @@
       "source": "olx"
     },
     {
-      "title": "Poszukiwani pracownicy do prac remontowo-wykończeniowych",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/poszukiwani-pracownicy-do-prac-remontowo-wykonczeniowych-CID4-ID12fs5F.html",
-      "source": "olx"
-    },
-    {
       "title": "Mechanik samochodowy / doradca klienta poszukiwany",
       "company": "No company",
       "salary": "No salary",
@@ -279,36 +268,14 @@
       "source": "olx"
     },
     {
-      "title": "Młodszy Specjalista ds. Postępowań Egzekucyjnych",
+      "title": "Poszukiwani pracownicy do prac remontowo-wykończeniowych",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/mlodszy-specjalista-ds-postepowan-egzekucyjnych-CID4-ID16WC2L.html",
-      "source": "olx"
-    },
-    {
-      "title": "Pracownik myjni samochodowej",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/pracownik-myjni-samochodowej-CID4-ID187eNY.html",
-      "source": "olx"
-    },
-    {
-      "title": "Specjalista ds. sprzedaży telefonicznej",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/specjalista-ds-sprzedazy-telefonicznej-CID4-ID13bcO5.html",
+      "url": "https://www.olx.pl/oferta/praca/poszukiwani-pracownicy-do-prac-remontowo-wykonczeniowych-CID4-ID12fs5F.html",
       "source": "olx"
     },
     {
@@ -323,14 +290,25 @@
       "source": "olx"
     },
     {
-      "title": "Stylista fryzur poszukiwany!!!",
+      "title": "Młodszy Specjalista ds. Postępowań Egzekucyjnych",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/stylista-fryzur-poszukiwany-CID4-ID160cTt.html",
+      "url": "https://www.olx.pl/oferta/praca/mlodszy-specjalista-ds-postepowan-egzekucyjnych-CID4-ID16WC2L.html",
+      "source": "olx"
+    },
+    {
+      "title": "Specjalista ds. sprzedaży telefonicznej",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/specjalista-ds-sprzedazy-telefonicznej-CID4-ID13bcO5.html",
       "source": "olx"
     },
     {
@@ -345,14 +323,25 @@
       "source": "olx"
     },
     {
-      "title": "Kierowca Uber/Bolt - najlepsze warunki! Ty wybierasz dni pracy!",
+      "title": "Pracownik myjni samochodowej",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-uber-bolt-najlepsze-warunki-ty-wybierasz-dni-pracy-CID4-ID17nxf0.html",
+      "url": "https://www.olx.pl/oferta/praca/pracownik-myjni-samochodowej-CID4-ID187eNY.html",
+      "source": "olx"
+    },
+    {
+      "title": "Stylista fryzur poszukiwany!!!",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/stylista-fryzur-poszukiwany-CID4-ID160cTt.html",
       "source": "olx"
     },
     {
@@ -364,6 +353,17 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/asystent-projektanta-inzynier-budowy-CID4-ID18GAyW.html",
+      "source": "olx"
+    },
+    {
+      "title": "Kierowca Uber/Bolt - najlepsze warunki! Ty wybierasz dni pracy!",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/kierowca-uber-bolt-najlepsze-warunki-ty-wybierasz-dni-pracy-CID4-ID17nxf0.html",
       "source": "olx"
     },
     {
@@ -595,17 +595,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/psychoterapeuta-psycholog-psychodietetyk-seksuolog-CID4-ID13JccU.html?reason=extended_search_extended_distance",
-      "source": "olx"
-    },
-    {
-      "title": "Kierowca C DAF 18t. Szkolenie możliwe. Panie też zapraszamy",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/kierowca-c-daf-18t-szkolenie-mozliwe-panie-tez-zapraszamy-CID4-ID18xIr6.html?reason=extended_search_extended_distance",
       "source": "olx"
     },
     {
