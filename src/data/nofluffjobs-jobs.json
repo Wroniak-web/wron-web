@@ -1,54 +1,10 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-01-10T03:28:39.419Z",
+  "lastUpdated": "2026-01-11T03:54:42.868Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Junior Logistics Analyst NOWA",
-      "company": "Experis Polska",
-      "salary": "7 500 – 8 300 PLN",
-      "salaryMin": 7500,
-      "salaryMax": 8300,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-logistics-analyst-experis-polska-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Backend Developer (Node.js) NOWA",
-      "company": "MasterBorn",
-      "salary": "6 000 – 10 000 PLN",
-      "salaryMin": 6000,
-      "salaryMax": 10000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-backend-developer-node-js-masterborn-wroclaw-10",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Ferryt Developer (he/she) NOWA",
-      "company": "ASTEK Polska",
-      "salary": "16 800 – 21 000 PLN",
-      "salaryMin": 16800,
-      "salaryMax": 21000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/ferryt-developer-he-she-astek-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Test Support Specialist NOWA",
-      "company": "Scalo",
-      "salary": "12 600 – 15 120 PLN",
-      "salaryMin": 12600,
-      "salaryMax": 15120,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/test-support-specialist-scalo-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Data Engineer (Databricks)",
+      "title": "Junior Data Engineer (Databricks) NOWA",
       "company": "Addepto",
       "salary": "8 400 – 15 120 PLN",
       "salaryMin": 8400,
@@ -59,18 +15,18 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Analyst",
-      "company": "Experis Polska",
-      "salary": "13 440 – 15 120 PLN",
-      "salaryMin": 13440,
-      "salaryMax": 15120,
-      "salaryType": "monthly",
+      "title": "Program mentoringowy dla studentek NOWA",
+      "company": "EY Polska",
+      "salary": "bezpłatny staż",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-analyst-experis-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/program-mentoringowy-dla-studentek-ey-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior ETL/Data Engineer (with Power BI)",
+      "title": "Junior ETL/Data Engineer (with Power BI) NOWA",
       "company": "Sofomo",
       "salary": "9 500 – 11 000 PLN",
       "salaryMin": 9500,
@@ -81,69 +37,47 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Sales Proposal Intern with German NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/sales-proposal-intern-with-german-capgemini-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Bulgarian speaker",
-      "company": "Antal",
-      "salary": "5 850 PLN",
-      "salaryMin": 5850,
-      "salaryMax": 5850,
+      "title": "Junior Logistics Analyst",
+      "company": "Experis Polska",
+      "salary": "7 500 – 8 300 PLN",
+      "salaryMin": 7500,
+      "salaryMax": 8300,
       "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/bulgarian-speaker-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-logistics-analyst-experis-polska-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern SAP with German NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
+      "title": "Junior Backend Developer (Node.js)",
+      "company": "MasterBorn",
+      "salary": "6 000 – 10 000 PLN",
+      "salaryMin": 6000,
+      "salaryMax": 10000,
+      "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-sap-with-german-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-backend-developer-node-js-masterborn-wroclaw-10",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Java Starter Kit NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
+      "title": "Ferryt Developer (he/she)",
+      "company": "ASTEK Polska",
+      "salary": "16 800 – 21 000 PLN",
+      "salaryMin": 16800,
+      "salaryMax": 21000,
+      "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/java-starter-kit-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/ferryt-developer-he-she-astek-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "OTC Process & Change Management Junior Consultant NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
+      "title": "Test Support Specialist",
+      "company": "Scalo",
+      "salary": "12 600 – 15 120 PLN",
+      "salaryMin": 12600,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/otc-process-change-management-junior-consultant-capgemini-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Młodszy Specjalista/Specjalistka ds. Sprzedaży NOWA",
-      "company": "SDP Nieruchomości",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/mlodszy-specjalista-specjalistka-ds-sprzedazy-sdp-nieruchomosci-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/test-support-specialist-scalo-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -155,6 +89,17 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/ey-tech-bootcamp-zespol-sap-finance-ey-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Analyst",
+      "company": "Experis Polska",
+      "salary": "13 440 – 15 120 PLN",
+      "salaryMin": 13440,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-analyst-experis-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -213,6 +158,39 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Junior Analityk_Analityczka HR Transformation & Change Management NOWA",
+      "company": "EY Polska",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-analityk-analityczka-hr-transformation-change-management-ey-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Akademia Telco Cloud NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/akademia-telco-cloud-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Java Starter Kit with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/java-starter-kit-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Back Office Agent with German NOWA",
       "company": "Antal",
       "salary": "Sprawdź zarobki",
@@ -221,6 +199,28 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/back-office-agent-with-german-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Specialist with Serbian in Financial Planning & Analysis NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/specialist-with-serbian-in-financial-planning-analysis-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Sales Manager B2B / Specjalista ds. sprzedaży B2B NOWA",
+      "company": "Ringostat",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/sales-manager-b2b-specjalista-ds-sprzedazy-b2b-ringostat-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
