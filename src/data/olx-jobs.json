@@ -1,8 +1,30 @@
 {
   "source": "olx",
-  "lastUpdated": "2026-01-12T03:54:33.052Z",
-  "count": 41,
+  "lastUpdated": "2026-01-13T03:32:21.579Z",
+  "count": 44,
   "jobs": [
+    {
+      "title": "zatrudnię osoby do księgowości",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/zatrudnie-osoby-do-ksiegowosci-CID4-ID18ZBGE.html",
+      "source": "olx"
+    },
+    {
+      "title": "Дистанційна робота ,дроп-менеджер для Українців у Польщі. Підробіток",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/-CID4-ID180ID5.html",
+      "source": "olx"
+    },
     {
       "title": "Kierowca Taxi Uber/Bolt Wrocław – Najlepsze Warunki, Nowe Samochody!",
       "company": "No company",
@@ -15,14 +37,58 @@
       "source": "olx"
     },
     {
-      "title": "Дистанційна робота ,дроп-менеджер для Українців у Польщі. Підробіток",
+      "title": "Specjalista ds. Marketingu i Social Media",
       "company": "No company",
       "salary": "No salary",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/-CID4-ID180ID5.html",
+      "url": "https://www.olx.pl/oferta/praca/specjalista-ds-marketingu-i-social-media-CID4-ID1908FW.html",
+      "source": "olx"
+    },
+    {
+      "title": "Praktykant/Stażysta w biurze rachunkowo-podatkowym",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praktykant-stazysta-w-biurze-rachunkowo-podatkowym-CID4-ID16bmO5.html",
+      "source": "olx"
+    },
+    {
+      "title": "MAGAZYNIER/KIEROWCA - praca w centrum Wrocławia!",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/magazynier-kierowca-praca-w-centrum-wroclawia-CID4-ID17Ex5B.html",
+      "source": "olx"
+    },
+    {
+      "title": "PRACA ZDALNA – rekruter / specjalista ds. pozyskiwania kandydatów",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/praca-zdalna-rekruter-specjalista-ds-pozyskiwania-kandydatow-CID4-ID18ZwCT.html",
+      "source": "olx"
+    },
+    {
+      "title": "Staż płatny w Dziale Marketingu – SEO & Content",
+      "company": "No company",
+      "salary": "No salary",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "No location",
+      "url": "https://www.olx.pl/oferta/praca/staz-platny-w-dziale-marketingu-seo-content-CID4-ID18OY5G.html",
       "source": "olx"
     },
     {
@@ -122,17 +188,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/mechanik-rowerowy-z-doswiadczeniem-menedzer-mi-i-CID4-ID16ng9H.html",
-      "source": "olx"
-    },
-    {
-      "title": "Praktykant/Stażysta w biurze rachunkowo-podatkowym",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/praktykant-stazysta-w-biurze-rachunkowo-podatkowym-CID4-ID16bmO5.html",
       "source": "olx"
     },
     {
@@ -243,28 +298,6 @@
       "salaryType": null,
       "location": "No location",
       "url": "https://www.olx.pl/oferta/praca/praca-kierowca-taxi-CID4-ID170txl.html",
-      "source": "olx"
-    },
-    {
-      "title": "MAGAZYNIER/KIEROWCA - praca w centrum Wrocławia!",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/magazynier-kierowca-praca-w-centrum-wroclawia-CID4-ID17Ex5B.html",
-      "source": "olx"
-    },
-    {
-      "title": "Staż płatny w Dziale Marketingu – SEO & Content",
-      "company": "No company",
-      "salary": "No salary",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "No location",
-      "url": "https://www.olx.pl/oferta/praca/staz-platny-w-dziale-marketingu-seo-content-CID4-ID18OY5G.html",
       "source": "olx"
     },
     {
