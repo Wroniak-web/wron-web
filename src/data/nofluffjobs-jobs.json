@@ -1,10 +1,43 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-01-14T03:51:46.101Z",
+  "lastUpdated": "2026-01-15T03:45:15.102Z",
   "count": 20,
   "jobs": [
     {
-      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – WSPARCIE DZIAŁU HR NOWA",
+      "title": "Junior IT Support Specialist NOWA",
+      "company": "ATD-SOFTWARE",
+      "salary": "5 500 – 6 500 PLN",
+      "salaryMin": 5500,
+      "salaryMax": 6500,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-it-support-specialist-atd-software-wroclaw-2",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior ETL/Data Engineer (with Power BI) NOWA",
+      "company": "Sofomo",
+      "salary": "9 500 – 11 000 PLN",
+      "salaryMin": 9500,
+      "salaryMax": 11000,
+      "salaryType": "monthly",
+      "location": "Wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-etl-data-engineer-with-power-bi-sofomo-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Bulgarian speaker NOWA",
+      "company": "Antal",
+      "salary": "5 850 PLN",
+      "salaryMin": 5850,
+      "salaryMax": 5850,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/bulgarian-speaker-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – WSPARCIE DZIAŁU HR",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -37,17 +70,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior ETL/Data Engineer (with Power BI)",
-      "company": "Sofomo",
-      "salary": "9 500 – 11 000 PLN",
-      "salaryMin": 9500,
-      "salaryMax": 11000,
-      "salaryType": "monthly",
-      "location": "Wroclaw",
-      "url": "https://nofluffjobs.com/pl/job/junior-etl-data-engineer-with-power-bi-sofomo-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Twoja nowa kariera z sensem. Pracuj jako Doradca Ubezpieczeniowy.",
       "company": "Lookalna. Agencja Rekrutacji.",
       "salary": "9 000 – 18 000 PLN",
@@ -56,6 +78,17 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/twoja-nowa-kariera-z-sensem-pracuj-jako-doradca-ubezpieczeniowy--lookalna-agencja-rekrutacji--wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior PMO with German (Sourcing Requisition) NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-pmo-with-german-sourcing-requisition-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -70,14 +103,14 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Program mentoringowy dla studentek",
-      "company": "EY Polska",
-      "salary": "bezpłatny staż",
+      "title": "Młodszy Specjalista/Specjalistka ds. Sprzedaży NOWA",
+      "company": "SDP Nieruchomości",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/program-mentoringowy-dla-studentek-ey-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/mlodszy-specjalista-specjalistka-ds-sprzedazy-sdp-nieruchomosci-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -89,17 +122,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/ey-tech-bootcamp-zespol-sap-finance-ey-polska-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Logistics Analyst",
-      "company": "Experis Polska",
-      "salary": "7 500 – 8 300 PLN",
-      "salaryMin": 7500,
-      "salaryMax": 8300,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-logistics-analyst-experis-polska-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
@@ -158,62 +180,29 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern Automation Tester with German NOWA",
+      "title": "Intern PMO with German NOWA",
       "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern DevOps Engineer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern Frontend Developer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-frontend-developer-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Młodszy/Młodsza programista/programistka Java z językiem niemieckim NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/mlodszy-mlodsza-programista-programistka-java-z-jezykiem-niemieckim-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/intern-pmo-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
       "title": "Junior Java Developer with German NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
+      "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-java-developer-with-german-capgemini-polska-wroclaw-3",
+      "url": "https://nofluffjobs.com/pl/job/junior-java-developer-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Back Office Agent with German",
+      "title": "Back Office Agent with German NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
@@ -221,6 +210,17 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/back-office-agent-with-german-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Intern Automation Tester with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
