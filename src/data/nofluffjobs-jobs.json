@@ -1,10 +1,21 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-02-07T04:12:49.583Z",
+  "lastUpdated": "2026-02-08T04:36:31.677Z",
   "count": 20,
   "jobs": [
     {
-      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – SPECJALISTA/KA DS. REKLAM W GOOGLE ADS I FACEBOOK ADS NOWA",
+      "title": "Junior Data Analyst NOWA",
+      "company": "Experis Polska",
+      "salary": "13 440 – 15 120 PLN",
+      "salaryMin": 13440,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-analyst-experis-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – SPECJALISTA/KA DS. REKLAM W GOOGLE ADS I FACEBOOK ADS",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -15,7 +26,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – SPECJALISTA/KA DS. KONCEPCJI WIZUALNEJ I ARTYSTYCZNEJ NOWA",
+      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – SPECJALISTA/KA DS. KONCEPCJI WIZUALNEJ I ARTYSTYCZNEJ",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -26,7 +37,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – MANAGER DS. KONCEPCJI WIZUALNEJ NOWA",
+      "title": "WOLONTARIUSZ/WOLONTARIUSZKA – MANAGER DS. KONCEPCJI WIZUALNEJ",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -37,7 +48,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – MANAGER DS. TWORZENIA VIDEO Z AI NOWA",
+      "title": "WOLONTARIUSZ / WOLONTARIUSZKA – MANAGER DS. TWORZENIA VIDEO Z AI",
       "company": "Fundacja Organic",
       "salary": "bezpłatny staż",
       "salaryMin": null,
@@ -48,7 +59,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Engineer (Databricks) NOWA",
+      "title": "Junior Data Engineer (Databricks)",
       "company": "Addepto",
       "salary": "8 400 – 15 120 PLN",
       "salaryMin": 8400,
@@ -70,6 +81,17 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Intern SAP with German NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-sap-with-german-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Programista(ka) - Operator(ka) maszyn CNC",
       "company": "PPK Precision Engineering sp. z o.o.",
       "salary": "5 000 – 8 000 PLN",
@@ -81,53 +103,20 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Talent Acquisition Support Specialist (Civil Contract) NOWA",
+      "title": "Intern Frontend Developer with German NOWA",
       "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/talent-acquisition-support-specialist-civil-contract-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Solution Engineer with German (m/f/x)",
-      "company": "Fieldcode",
-      "salary": "8 000 – 12 000 PLN",
-      "salaryMin": 8000,
-      "salaryMax": 12000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/solution-engineer-with-german-m-f-x-fieldcode-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Data Engineer NOWA",
-      "company": "N-iX",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-n-ix-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern SAP with German NOWA",
-      "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-sap-with-german-capgemini-polska-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/intern-frontend-developer-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
       "title": "Java Starter Kit NOWA",
       "company": "Capgemini Polska Sp. z o.o.",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -136,9 +125,75 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Intern PMO with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-pmo-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Java Developer with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-java-developer-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior/Mid DevOps Engineer (GCP) NOWA",
+      "company": "Jacobs",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-mid-devops-engineer-gcp-jacobs-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Live Operations Advisor NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/live-operations-advisor-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Talent Acquisition Support Specialist (Civil Contract) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/talent-acquisition-support-specialist-civil-contract-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Engineer",
+      "company": "N-iX",
+      "salary": "Sprawdź zarobki",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-n-ix-wroclaw-1",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Intern Automation Tester with German",
       "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -149,7 +204,7 @@
     {
       "title": "Intern DevOps Engineer with German",
       "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -160,67 +215,12 @@
     {
       "title": "Specjalista/Specjalistka ds. wsparcia IT z językiem niemieckim",
       "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
+      "salary": "Sprawdź zarobki",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/specjalista-specjalistka-ds-wsparcia-it-z-jezykiem-niemieckim-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Obsługa klienta z językiem niemieckim",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with German",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern DevOps Engineer with German",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern Automation Tester with German",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "English and Polish -Speaking Courier Support Specialist (Chat Only, No Calls)",
-      "company": "Antal",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/english-and-polish-speaking-courier-support-specialist-chat-only-no-calls-antal-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
