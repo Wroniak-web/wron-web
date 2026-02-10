@@ -1,8 +1,19 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-02-09T04:31:51.482Z",
+  "lastUpdated": "2026-02-10T04:35:07.014Z",
   "count": 20,
   "jobs": [
+    {
+      "title": "Młodszy Specjalista ds. Sprzedaży NOWA",
+      "company": "Fudo Security",
+      "salary": "6 500 – 8 500 PLN",
+      "salaryMin": 6500,
+      "salaryMax": 8500,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/mlodszy-specjalista-ds-sprzedazy-fudo-security-wroclaw",
+      "source": "nofluffjobs.com"
+    },
     {
       "title": "Junior Logistics Analyst NOWA",
       "company": "Experis Polska",
@@ -15,18 +26,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern QA Engineer NOWA",
-      "company": "Waverley Software",
-      "salary": "2 859 – 3 574 PLN",
-      "salaryMin": 2859,
-      "salaryMax": 3574,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-qa-engineer-waverley-software-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Application Support (French/Spanish) NOWA",
+      "title": "IT Application Support (French/Spanish)",
       "company": "Ework Group",
       "salary": "12 600 – 15 120 PLN",
       "salaryMin": 12600,
@@ -37,7 +37,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Engineer (Databricks) NOWA",
+      "title": "Junior Data Engineer (Databricks)",
       "company": "Addepto",
       "salary": "8 400 – 15 120 PLN",
       "salaryMin": 8400,
@@ -48,7 +48,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Analyst NOWA",
+      "title": "Junior Data Analyst",
       "company": "Experis Polska",
       "salary": "13 440 – 15 120 PLN",
       "salaryMin": 13440,
@@ -83,7 +83,7 @@
     {
       "title": "Back Office Agent with German NOWA",
       "company": "Antal",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -105,7 +105,7 @@
     {
       "title": "EY Tech Bootcamp - Zespół SAP Project Management Office NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -114,31 +114,9 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern - Java Developer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-java-developer-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Staż - Programista/Programistka Java z językiem niemieckim NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź zarobki",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/staz-programista-programistka-java-z-jezykiem-niemieckim-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "EY Tech Bootcamp - Zespół SAP Supply Chain and Customer NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -147,9 +125,20 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Java Starter Kit with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/java-starter-kit-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "EY Tech Bootcamp - Zespół SAP Digital Innovation NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -158,9 +147,20 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Intern SAP with German NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-sap-with-german-capgemini-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "EY Tech Bootcamp - zespół SAP Data Analytics NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -171,7 +171,7 @@
     {
       "title": "EY Tech Bootcamp - Zespół SAP Finance NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -182,7 +182,7 @@
     {
       "title": "EY Tech Bootcamp - Zespół SAP Application Management Services NOWA",
       "company": "EY Polska",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
@@ -191,36 +191,36 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior .NET Developer with Angular NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź zarobki",
+      "title": "Java Starter Kit NOWA",
+      "company": "Capgemini Polska Sp. z o.o.",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-net-developer-with-angular-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/java-starter-kit-capgemini-polska-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intelligent Automation Developer (Blue Prism) NOWA",
+      "title": "Junior Marketing and Communication Specialist NOWA",
       "company": "Capgemini",
-      "salary": "Sprawdź zarobki",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intelligent-automation-developer-blue-prism-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-marketing-and-communication-specialist-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern Frontend Developer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź zarobki",
+      "title": "Asystent / Asystentka ds. Wsparcia Sprzedaży NOWA",
+      "company": "SDP Nieruchomości",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-frontend-developer-with-german-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/asystent-asystentka-ds-wsparcia-sprzedazy-sdp-nieruchomosci-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
