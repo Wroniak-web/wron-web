@@ -1,10 +1,10 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-03-08T02:37:24.102Z",
+  "lastUpdated": "2026-03-09T02:38:42.085Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Fullstack Internship | RAS TECH Summer",
+      "title": "Fullstack Internship | RAS TECH Summer NOWA",
       "company": "Ringier Axel Springer Tech",
       "salary": "5 400 PLN",
       "salaryMin": 5400,
@@ -12,6 +12,50 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/fullstack-internship-ras-tech-summer-ringier-axel-springer-tech-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Fullstack Developer (f/m) (20-40h/tydz) NOWA",
+      "company": "Fingoweb",
+      "salary": "5 275 – 6 720 PLN",
+      "salaryMin": 5275,
+      "salaryMax": 6720,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-fullstack-developer-f-m-20-40h-tydz-fingoweb-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Mobile Internship | RAS TECH Summer NOWA",
+      "company": "Ringier Axel Springer Tech",
+      "salary": "5 400 PLN",
+      "salaryMin": 5400,
+      "salaryMax": 5400,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/mobile-internship-ras-tech-summer-ringier-axel-springer-tech-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Engineer (Azure Data Factory) NOWA",
+      "company": "Addepto",
+      "salary": "7 000 – 12 600 PLN",
+      "salaryMin": 7000,
+      "salaryMax": 12600,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-azure-data-factory-addepto-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Marketing Specialist NOWA",
+      "company": "Fream",
+      "salary": "6 000 – 7 000 PLN",
+      "salaryMin": 6000,
+      "salaryMax": 7000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/marketing-specialist-fream-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -26,17 +70,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Mobile Internship | RAS TECH Summer",
-      "company": "Ringier Axel Springer Tech",
-      "salary": "5 400 PLN",
-      "salaryMin": 5400,
-      "salaryMax": 5400,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/mobile-internship-ras-tech-summer-ringier-axel-springer-tech-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Junior QA Specialist",
       "company": "MasterBorn",
       "salary": "6 000 – 8 000 PLN",
@@ -45,6 +78,17 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-qa-specialist-masterborn-wroclaw-4",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "OTC Accountant with English NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/otc-accountant-with-english-antal-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -59,116 +103,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Strong Data Engineer (Databricks)",
-      "company": "N-iX",
-      "salary": "9 240 – 12 936 PLN",
-      "salaryMin": 9240,
-      "salaryMax": 12936,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-strong-data-engineer-databricks-n-ix-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "🌿 Fundacja Organic poszukuje: Wolontariusz/Wolontariuszka wsparcie działu HR",
-      "company": "Fundacja Organic",
-      "salary": "bezpłatny staż",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/fundacja-organic-poszukuje-wolontariusz-wolontariuszka-wsparcie-dzialu-hr-fundacja-organic-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern Automation Tester with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "🌿 Fundacja Organic poszukuje: Wolontariusza/Wolontariuszki specjalista / specjalistka ds. PR",
-      "company": "Fundacja Organic",
-      "salary": "bezpłatny staż",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/fundacja-organic-poszukuje-wolontariusza-wolontariuszki-specjalista-specjalistka-ds-pr-fundacja-organic-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Specjalista/Specjalistka ds. wsparcia IT z językiem niemieckim NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/specjalista-specjalistka-ds-wsparcia-it-z-jezykiem-niemieckim-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern DevOps Engineer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern DevOps Engineer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Obsługa klienta z językiem niemieckim NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern Automation Tester with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "IT Support Agent with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/it-support-agent-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Junior Integration Developer | Cloud & Engineering NOWA",
       "company": "Deloitte",
       "salary": "Sprawdź wynagrodzenie",
@@ -180,14 +114,36 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Chat Support Specialist with English NOWA",
-      "company": "Antal",
+      "title": "Intern Business Analyst with German NOWA",
+      "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/chat-support-specialist-with-english-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/intern-business-analyst-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Business Analyst with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-business-analyst-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior RPA Developer (UiPath) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-rpa-developer-uipath-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -202,25 +158,69 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Administration Specialist with Foreign Language (K/M) NOWA",
+      "title": "Part-Time Chat Support Specialist (Bulgarian, German, or Dutch) – Fully Remote / Wrocław NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/administration-specialist-with-foreign-language-k-m-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/part-time-chat-support-specialist-bulgarian-german-or-dutch-fully-remote-wroclaw-antal-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Specjalista ds. Wsparcia Klienta z Językiem Niemieckim i Angielskim (K/M) NOWA",
+      "title": "Live Chat Support Specialist (Part-Time) NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/specjalista-ds-wsparcia-klienta-z-jezykiem-niemieckim-i-angielskim-k-m-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/live-chat-support-specialist-part-time-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Italian and English-Speaking Courier Support Specialist (part-time) NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/italian-and-english-speaking-courier-support-specialist-part-time-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Developer/Trainee for Assembler - Mainframe IBM z/OS (willingness to learn Assembler) NOWA",
+      "company": "Deloitte",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-developer-trainee-for-assembler-mainframe-ibm-z-os-willingness-to-learn-assembler-deloitte-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior PMO with German | Systems Delivery & Modernization NOWA",
+      "company": "Deloitte",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-pmo-with-german-systems-delivery-modernization-deloitte-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Customer Service Agent with Italian or just English part-time NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/customer-service-agent-with-italian-or-just-english-part-time-antal-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
