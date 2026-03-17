@@ -1,10 +1,43 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-03-16T02:52:19.441Z",
+  "lastUpdated": "2026-03-17T02:35:56.839Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Fullstack Internship | RAS TECH Summer NOWA",
+      "title": "Junior Data Engineer (Azure Data Factory) NOWA",
+      "company": "Addepto",
+      "salary": "7 000 – 12 600 PLN",
+      "salaryMin": 7000,
+      "salaryMax": 12600,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-azure-data-factory-addepto-wroclaw-1",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Engineer (Databricks) NOWA",
+      "company": "Addepto",
+      "salary": "8 400 – 15 120 PLN",
+      "salaryMin": 8400,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-9",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Cybersecurity Support Analyst NOWA",
+      "company": "Scalo",
+      "salary": "4 704 – 5 880 PLN",
+      "salaryMin": 4704,
+      "salaryMax": 5880,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-cybersecurity-support-analyst-scalo-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Fullstack Internship | RAS TECH Summer",
       "company": "Ringier Axel Springer Tech",
       "salary": "5 400 PLN",
       "salaryMin": 5400,
@@ -15,7 +48,7 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Mobile Internship | RAS TECH Summer NOWA",
+      "title": "Mobile Internship | RAS TECH Summer",
       "company": "Ringier Axel Springer Tech",
       "salary": "5 400 PLN",
       "salaryMin": 5400,
@@ -37,28 +70,6 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Engineer (Azure Data Factory)",
-      "company": "Addepto",
-      "salary": "7 000 – 12 600 PLN",
-      "salaryMin": 7000,
-      "salaryMax": 12600,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-azure-data-factory-addepto-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Data Engineer (Databricks)",
-      "company": "Addepto",
-      "salary": "8 400 – 15 120 PLN",
-      "salaryMin": 8400,
-      "salaryMax": 15120,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-9",
-      "source": "nofluffjobs.com"
-    },
-    {
       "title": "Junior Linux Engineer + Recruitment Engineer",
       "company": "Correct Context",
       "salary": "6 000 – 8 000 PLN",
@@ -67,6 +78,17 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-linux-engineer-recruitment-engineer-correct-context-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "OTC Process & Change Management Junior Consultant NOWA",
+      "company": "Capgemini Invent",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/otc-process-change-management-junior-consultant-capgemini-invent-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -81,47 +103,14 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern Automation Tester with German NOWA",
-      "company": "Capgemini",
+      "title": "Industry Senior Consultant NOWA",
+      "company": "Deloitte",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern/ Junior Python Developer",
-      "company": "xBerry",
-      "salary": "5 275 – 5 880 PLN",
-      "salaryMin": 5275,
-      "salaryMax": 5880,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-junior-python-developer-xberry-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern DevOps Engineer with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw-1",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Talent Acquisition Support Specialist (Civil Contract) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/talent-acquisition-support-specialist-civil-contract-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/industry-senior-consultant-deloitte-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -136,25 +125,91 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Intern Frontend Developer with German NOWA",
+      "title": "Junior Java Developer with German NOWA",
       "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-frontend-developer-with-german-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-java-developer-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Amazon Connect Junior Developer (Cloud Contact Center AI LAB) NOWA",
+      "title": "Intern PMO with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-pmo-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Starter Kit Upskilling Program (Java, with German) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/starter-kit-upskilling-program-java-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Specialist Buyer (Procurment) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-specialist-buyer-procurment-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Supply Chain Planner NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-supply-chain-planner-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Obsługa klienta z językiem niemieckim NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-wroclaw-2",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Wsparcie IT z j. niemieckim (pół etatu) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/wsparcie-it-z-j-niemieckim-pol-etatu-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Developer/Trainee for Assembler - Mainframe IBM z/OS (willingness to learn Assembler) NOWA",
       "company": "Deloitte",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
-      "location": "Wroclaw",
-      "url": "https://nofluffjobs.com/pl/job/amazon-connect-junior-developer-cloud-contact-center-ai-lab-deloitte-wroclaw",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-developer-trainee-for-assembler-mainframe-ibm-z-os-willingness-to-learn-assembler-deloitte-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -166,61 +221,6 @@
       "salaryType": null,
       "location": "Wroclaw",
       "url": "https://nofluffjobs.com/pl/job/one-engineering-bootcamp-wroclaw-deloitte-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Business Analyst (Cloud Contact Center AI LAB) NOWA",
-      "company": "Deloitte",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wroclaw",
-      "url": "https://nofluffjobs.com/pl/job/junior-business-analyst-cloud-contact-center-ai-lab-deloitte-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Java Developer Internship (with German) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/java-developer-internship-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Quality Assurance Internship – Tax Technology, Global Mobility Services NOWA",
-      "company": "KPMG",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/quality-assurance-internship-tax-technology-global-mobility-services-kpmg-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "AR Accountant with French | Remote",
-      "company": "Antal",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/ar-accountant-with-french-remote-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "AP Accountant with German | Remote",
-      "company": "Antal",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/ap-accountant-with-german-remote-antal-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
