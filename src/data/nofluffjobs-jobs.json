@@ -1,10 +1,54 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-03-24T02:35:31.814Z",
+  "lastUpdated": "2026-03-25T02:40:29.699Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Tester Manualny NOWA",
+      "title": "Młodszy Programista Hurtowni Danych NOWA",
+      "company": "ASTEK Polska",
+      "salary": "5 000 – 7 000 PLN",
+      "salaryMin": 5000,
+      "salaryMax": 7000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/mlodszy-programista-hurtowni-danych-astek-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Staż SAP Developer NOWA",
+      "company": "Convista Poland",
+      "salary": "5 208 – 6 384 PLN",
+      "salaryMin": 5208,
+      "salaryMax": 6384,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/staz-sap-developer-convista-poland-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Influencer Marketing Manager NOWA",
+      "company": "BLUEBINARY",
+      "salary": "5 000 – 7 000 PLN",
+      "salaryMin": 5000,
+      "salaryMax": 7000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-influencer-marketing-manager-bluebinary-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Proxy Product Owner NOWA",
+      "company": "MasterBorn",
+      "salary": "6 000 – 9 000 PLN",
+      "salaryMin": 6000,
+      "salaryMax": 9000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-proxy-product-owner-masterborn-wroclaw-2",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Tester Manualny",
       "company": "ASTEK Polska",
       "salary": "7 000 – 8 000 PLN",
       "salaryMin": 7000,
@@ -17,9 +61,9 @@
     {
       "title": "Junior Strong Data Engineer (Databricks)",
       "company": "N-iX",
-      "salary": "9 323 – 13 052 PLN",
-      "salaryMin": 9323,
-      "salaryMax": 13052,
+      "salary": "9 212 – 12 897 PLN",
+      "salaryMin": 9212,
+      "salaryMax": 12897,
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-strong-data-engineer-databricks-n-ix-wroclaw",
@@ -37,6 +81,17 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Administration Specialist with Foreign Language (K/M) NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/administration-specialist-with-foreign-language-k-m-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Mobile Internship | RAS TECH Summer",
       "company": "Ringier Axel Springer Tech",
       "salary": "5 400 PLN",
@@ -48,36 +103,36 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Cybersecurity Support Analyst",
-      "company": "Scalo",
-      "salary": "4 704 – 5 880 PLN",
-      "salaryMin": 4704,
-      "salaryMax": 5880,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-cybersecurity-support-analyst-scalo-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior PHP Developer (f/m)",
-      "company": "Fingoweb",
-      "salary": "5 275 – 8 400 PLN",
-      "salaryMin": 5275,
-      "salaryMax": 8400,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-php-developer-f-m-fingoweb-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "🌿 Fundacja Organic poszukuje: Wolontariusz/Wolontariuszka wsparcie działu HR",
-      "company": "Fundacja Organic",
-      "salary": "bezpłatny staż",
+      "title": "Specjalista ds. Wsparcia Klienta z Językiem Niemieckim i Angielskim (K/M) NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/fundacja-organic-poszukuje-wolontariusz-wolontariuszka-wsparcie-dzialu-hr-fundacja-organic-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/specjalista-ds-wsparcia-klienta-z-jezykiem-niemieckim-i-angielskim-k-m-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Supply Chain Planning Manager NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-supply-chain-planning-manager-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Java Developer Internship (with German) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/java-developer-internship-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -89,17 +144,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/junior-end-to-end-planner-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "🌿 Fundacja Organic poszukuje: Wolontariusza/Wolontariuszki specjalista / specjalistka ds. PR",
-      "company": "Fundacja Organic",
-      "salary": "bezpłatny staż",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/fundacja-organic-poszukuje-wolontariusza-wolontariuszki-specjalista-specjalistka-ds-pr-fundacja-organic-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -177,50 +221,6 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/part-time-chat-support-specialist-bulgarian-german-or-dutch-fully-remote-wroclaw-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Supply Chain Planner NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-supply-chain-planner-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Junior Specialist Buyer (Procurment) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-specialist-buyer-procurment-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Obsługa klienta z językiem niemieckim NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-wroclaw-2",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Starter Kit Upskilling Program (Java, with German) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/starter-kit-upskilling-program-java-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]
