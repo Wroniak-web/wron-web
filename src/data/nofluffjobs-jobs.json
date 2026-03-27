@@ -1,39 +1,28 @@
 {
   "source": "nofluffjobs",
-  "lastUpdated": "2026-03-26T02:47:48.495Z",
+  "lastUpdated": "2026-03-27T02:50:08.597Z",
   "count": 20,
   "jobs": [
     {
-      "title": "Junior Data Engineer (Azure Data Factory) NOWA",
-      "company": "Addepto",
-      "salary": "7 000 – 12 600 PLN",
-      "salaryMin": 7000,
-      "salaryMax": 12600,
+      "title": "Junior New Business Specialist / New Business Specialist NOWA",
+      "company": "DEVAGROUP",
+      "salary": "4 900 – 6 200 PLN",
+      "salaryMin": 4900,
+      "salaryMax": 6200,
       "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-azure-data-factory-addepto-wroclaw-1",
+      "url": "https://nofluffjobs.com/pl/job/junior-new-business-specialist-new-business-specialist-devagroup-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Data Engineer (Databricks) NOWA",
-      "company": "Addepto",
-      "salary": "8 400 – 15 120 PLN",
-      "salaryMin": 8400,
-      "salaryMax": 15120,
+      "title": "Intern QA Specialist (Paid Internship) NOWA",
+      "company": "MasterBorn",
+      "salary": "4 300 PLN",
+      "salaryMin": 4300,
+      "salaryMax": 4300,
       "salaryType": "monthly",
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-9",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Sales Development Representative / Junior IT Sales NOWA",
-      "company": "White Label Coders",
-      "salary": "7 000 – 10 000 PLN",
-      "salaryMin": 7000,
-      "salaryMax": 10000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/sales-development-representative-junior-it-sales-white-label-coders-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/intern-qa-specialist-paid-internship-masterborn-wroclaw-2",
       "source": "nofluffjobs.com"
     },
     {
@@ -48,6 +37,39 @@
       "source": "nofluffjobs.com"
     },
     {
+      "title": "Junior Data Engineer (Azure Data Factory)",
+      "company": "Addepto",
+      "salary": "7 000 – 12 600 PLN",
+      "salaryMin": 7000,
+      "salaryMax": 12600,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-azure-data-factory-addepto-wroclaw-1",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Junior Data Engineer (Databricks)",
+      "company": "Addepto",
+      "salary": "8 400 – 15 120 PLN",
+      "salaryMin": 8400,
+      "salaryMax": 15120,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/junior-data-engineer-databricks-addepto-wroclaw-9",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Sales Development Representative / Junior IT Sales",
+      "company": "White Label Coders",
+      "salary": "7 000 – 10 000 PLN",
+      "salaryMin": 7000,
+      "salaryMax": 10000,
+      "salaryType": "monthly",
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/sales-development-representative-junior-it-sales-white-label-coders-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
       "title": "Młodszy Programista Hurtowni Danych",
       "company": "ASTEK Polska",
       "salary": "5 000 – 7 000 PLN",
@@ -56,6 +78,17 @@
       "salaryType": "monthly",
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/mlodszy-programista-hurtowni-danych-astek-polska-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Intern Automation Tester with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-automation-tester-with-german-capgemini-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
@@ -70,135 +103,69 @@
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Product Owner",
-      "company": "MasterBorn",
-      "salary": "6 000 – 9 000 PLN",
-      "salaryMin": 6000,
-      "salaryMax": 9000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-product-owner-masterborn-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Intern Business Analyst with German NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/intern-business-analyst-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Tester Manualny",
-      "company": "ASTEK Polska",
-      "salary": "7 000 – 8 000 PLN",
-      "salaryMin": 7000,
-      "salaryMax": 8000,
-      "salaryType": "monthly",
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/tester-manualny-astek-polska-wroclaw-4",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Live Chat Support Specialist (Part-Time) NOWA",
+      "title": "Customer Service Agent with Italian or just English part-time NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/live-chat-support-specialist-part-time-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/customer-service-agent-with-italian-or-just-english-part-time-antal-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Wsparcie IT z j. niemieckim (pół etatu) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/wsparcie-it-z-j-niemieckim-pol-etatu-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Part-Time Chat Support Specialist (Bulgarian, German, or Dutch) – Fully Remote / Wrocław NOWA",
+      "title": "Part-Time | Chat Support Specialist with Italian NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/part-time-chat-support-specialist-bulgarian-german-or-dutch-fully-remote-wroclaw-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/part-time-chat-support-specialist-with-italian-antal-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Supply Chain Planner NOWA",
+      "title": "Intern DevOps Engineer with German NOWA",
       "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-supply-chain-planner-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/intern-devops-engineer-with-german-capgemini-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Junior Specialist Buyer (Procurment) NOWA",
+      "title": "Java Developer Internship (with German) NOWA",
       "company": "Capgemini",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/junior-specialist-buyer-procurment-capgemini-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/java-developer-internship-with-german-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Obsługa klienta z językiem niemieckim NOWA",
-      "company": "Capgemini",
+      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. Sprzedaży NOWA",
+      "company": "SDP Nieruchomości",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/obsluga-klienta-z-jezykiem-niemieckim-capgemini-wroclaw-2",
+      "url": "https://nofluffjobs.com/pl/job/mlodszy-specjalista-mlodsza-specjalistka-ds-sprzedazy-sdp-nieruchomosci-wroclaw-1",
       "source": "nofluffjobs.com"
     },
     {
-      "title": "Starter Kit Upskilling Program (Java, with German) NOWA",
-      "company": "Capgemini",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/starter-kit-upskilling-program-java-with-german-capgemini-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Italian and English-Speaking Courier Support Specialist (part-time) NOWA",
+      "title": "Junior / AP Accountant with German (remotely) NOWA",
       "company": "Antal",
       "salary": "Sprawdź wynagrodzenie",
       "salaryMin": null,
       "salaryMax": null,
       "salaryType": null,
       "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/italian-and-english-speaking-courier-support-specialist-part-time-antal-wroclaw",
-      "source": "nofluffjobs.com"
-    },
-    {
-      "title": "Chat Support Specialist with English NOWA",
-      "company": "Antal",
-      "salary": "Sprawdź wynagrodzenie",
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryType": null,
-      "location": "Wrocław",
-      "url": "https://nofluffjobs.com/pl/job/chat-support-specialist-with-english-antal-wroclaw",
+      "url": "https://nofluffjobs.com/pl/job/junior-ap-accountant-with-german-remotely-antal-wroclaw",
       "source": "nofluffjobs.com"
     },
     {
@@ -221,6 +188,39 @@
       "salaryType": null,
       "location": "Wrocław",
       "url": "https://nofluffjobs.com/pl/job/intern-java-developer-with-german-capgemini-wroclaw-2",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Intern Business Analyst with German NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/intern-business-analyst-with-german-capgemini-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Live Chat Support Specialist (Part-Time) NOWA",
+      "company": "Antal",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/live-chat-support-specialist-part-time-antal-wroclaw",
+      "source": "nofluffjobs.com"
+    },
+    {
+      "title": "Wsparcie IT z j. niemieckim (pół etatu) NOWA",
+      "company": "Capgemini",
+      "salary": "Sprawdź wynagrodzenie",
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryType": null,
+      "location": "Wrocław",
+      "url": "https://nofluffjobs.com/pl/job/wsparcie-it-z-j-niemieckim-pol-etatu-capgemini-wroclaw",
       "source": "nofluffjobs.com"
     }
   ]

@@ -1,32 +1,59 @@
 {
   "source": "amazon",
-  "lastUpdated": "2026-03-26T02:47:45.441Z",
-  "count": 3,
+  "lastUpdated": "2026-03-27T02:50:05.401Z",
+  "count": 6,
   "jobs": [
     {
-      "title": "No title",
-      "location": "No location",
-      "jobId": "No Job ID",
-      "datePosted": "No date",
-      "url": "No URL",
+      "title": "Maintenance Supervisor, RME",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "|",
+      "datePosted": "February 17, 2026",
+      "url": "https://www.amazon.jobs/en/jobs/3182581/maintenance-supervisor-rme",
       "source": "amazon",
       "company": "Amazon"
     },
     {
-      "title": "No title",
-      "location": "No location",
-      "jobId": "No Job ID",
-      "datePosted": "No date",
-      "url": "No URL",
+      "title": "Mistrz/Mistrzyni Utrzymania Ruchu (m/k), RME",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "3150558",
+      "datePosted": "December 31, 2025",
+      "url": "https://www.amazon.jobs/en/jobs/3150558/mistrz-mistrzyni-utrzymania-ruchu-m-k-rme",
       "source": "amazon",
       "company": "Amazon"
     },
     {
-      "title": "No title",
-      "location": "No location",
-      "jobId": "No Job ID",
-      "datePosted": "No date",
-      "url": "No URL",
+      "title": "Mistrz Utrzymania Ruchu (m/k), RME",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "3119241",
+      "datePosted": "October 31, 2025",
+      "url": "https://www.amazon.jobs/en/jobs/3119241/mistrz-utrzymania-ruchu-m-k-rme",
+      "source": "amazon",
+      "company": "Amazon"
+    },
+    {
+      "title": "RME Operator, RME",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "3121313",
+      "datePosted": "November 5, 2025",
+      "url": "https://www.amazon.jobs/en/jobs/3121313/rme-operator-rme",
+      "source": "amazon",
+      "company": "Amazon"
+    },
+    {
+      "title": "Operations & Logistics Internship",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "3078063",
+      "datePosted": "September 8, 2025",
+      "url": "https://www.amazon.jobs/en/jobs/3078063/operations-logistics-internship",
+      "source": "amazon",
+      "company": "Amazon"
+    },
+    {
+      "title": "Staż w dziale operacji i logistyki - Wrocław 2026",
+      "location": "Bielany Wroclawskie, POL",
+      "jobId": "3130511",
+      "datePosted": "November 21, 2025",
+      "url": "https://www.amazon.jobs/en/jobs/3130511/staz-w-dziale-operacji-i-logistyki-wroclaw-2026",
       "source": "amazon",
       "company": "Amazon"
     }
